@@ -289,7 +289,7 @@
 		},
 
 		"landing_page": {
-			"name"						: "登陆页",
+			"name"						: "着陆页",
 			"icon"						: "fa fa-fw fa-plane-arrival"
 		},
 
@@ -1103,18 +1103,18 @@
 		},
 
 		"paths": {
-			"header"					: "页",
-			"path"						: "页"
+			"header"					: "路径",
+			"path"						: "路径"
 		},
 
 		"landing_paths": {
 			"header"					: "着陆页",
-			"path"						: "页面"
+			"path"						: "路径"
 		},
 
 		"exit_paths": {
 			"header"					: "退出页面",
-			"path"						: "页面"
+			"path"						: "路径"
 		},
 
 		"referrers": {
