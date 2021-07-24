@@ -1,1518 +1,604 @@
 {
-	"global": {
-		"submit"						: "提交",
-		"create"						: "创建",
-		"delete"						: "删除",
-		"edit"							: "编辑",
-		"view"							: "查看",
-		"cancel"						: "取消",
-		"update"						: "更新",
-		"enable"						: "启用",
-		"hidden"						: "隐藏",
-		"login"							: "登入",
-		"language"						: "语言",
-		"choose_language"				: "选择语言",
-		"theme_style"					: "切换至%s模式",
-		"theme_style_light"				: "亮色主题",
-		"theme_style_dark"				: "暗色主题",
-		"close"							: "关闭",
-		"search"						: "搜索",
-		"no_data"						: "无数据..",
-		"yes"							: "是",
-		"no"							: "否",
-		"active"						: "激活",
-		"disabled"						: "禁用",
-		"export"						: "导出",
-		"export_csv"					: "到出CSV文件",
-		"export_json"					: "到出JSON文件",
-		"export_pdf"					: "导出PDF文件",
-		"captcha_placeholder"			: "验证码文本",
-		"loading"						: "加载中..",
-		"view_more"						: "查看更多",
-		"view_x_more"					: "查看 %s 更多..",
-		"clipboard_copy"				: "复制至剪切板",
-		"clipboard_copied"				: "已复制!",
-		"terms_and_conditions"			: "服务条款",
-		"privacy_policy"				: "隐私政策",
-		"delete_file"					: "删除上传的文件",
-		"bulk_actions"					: "批量操作",
+	"admin_pages_categories": {
+		"header"						: "Pages categories",
+		"header_no_data"				: "Create your first page category",
+		"subheader_no_data"				: "Sort your additional pages by categories.",
+		"create"						: "Create category",
 
-		"info_message": {
-			"confirm_delete"			: "您确定删除这个吗?",
-            "user_plan_is_expired"   	: "您当前的套餐已过期,并且您的访问被限制.请获取一个新计划!",
-			"plan_feature_no_access"	: "您当前的计划不允许您使用这个功能",
-			"team_not_allowed"			: "您必须退出当前团队才能使用此功能."
+		"pages_categories": {
+			"pages_category"			: "Category",
+			"total_pages"				: "%s pages"
 		},
 
-		"success_message": {
-			"basic"						: "您请求的命令已成功执行!"
+		"main": {
+			"header"					: "Main",
+			"subheader"					: "The main settings of the page category."
 		},
 
-		"error_message": {
-			"directory_not_writable"	: "目录不可写<strong>%s</strong>.确保给它有适当的文件夹权限.",
-			"file_not_writable"			: "文件不可写 <strong>%s</strong>. 确保给它有适当的文件夹权限.",
-			"empty_fields"				: "您必须填写所有字段!",
-			"empty_field"				: "您必须填写该字段!",
-			"invalid_captcha"			: "验证码错误!",
-			"invalid_file_type"			: "无效的文件类型!",
-			"invalid_csrf_token"		: "验证码已过期，操作无法完成,请重试!",
-			"basic"						: "由于某种原因,我们无法执行此操作.",
-			"file_size_limit"			: "您上传的文件过大,允许最大的上传大小是 %s MB."
+		"secondary": {
+			"header"					: "Secondary",
+			"subheader"					: "Extra settings for the page category."
 		},
 
-		"menu": {
-			"pricing"					: "价格",
-			"logout"					: "登出",
-			"admin"						: "管理台",
-			"website"					: "访问网站"
-		},
-
-		"accessibility": {
-			"toggle_navigation"			: "切换导航",
-			"logo_alt"					: "网页LOGO",
-			"captcha_alt"				: "验证码",
-			"captcha_input"				: "验证码字段"
-		},
-
-		"pagination": {
-			"previous"					: "上一页",
-			"next"						: "下一页",
-			"results"					: "显示第 %s-%s个结果,共 %s 个结果."
-		},
-
-		"filters": {
-			"header"					: "过滤器",
-			"reset"						: "重置",
-			"search"					: "搜索",
-			"search_by"					: "通过...搜索",
-			"status"					: "状态",
-			"order_by"					: "以..顺序",
-			"order_by_datetime"			: "创建时间",
-			"order_type"				: "Order type",
-			"order_type_asc"			: "升序",
-			"order_type_desc"			: "降序",
-			"all"						: "全部",
-			"results_per_page"			: "每一页的结果"
-		},
-
-        "date": {
-			"CHANGE_THOSE_AT_YOUR_OWN_RESPONSIBILITY": "",
-			"datetime_readable_format"	: "%1$s %2$s, %3$s",
-			"datetime_small_readable_format": "%1$s %2$s",
-			"datetime_ymd_format"		: "%1$s-%2$s-%3$s",
-			"datetime_his_format"		: "%1$s:%2$s:%3$s",
-			"datetime_ymd_his_format"	: "%1$s-%2$s-%3$s %4$s:%5$s:%6$s",
-
-			"now"						: "现在",
-			"cancel"					: "取消",
-			"apply"						: "应用",
-			"from"						: "从",
-			"to"						: "到",
-			"custom"					: "自定义",
-			"today"						: "今天",
-			"yesterday"					: "昨天",
-			"last_7_days"				: "过去7天",
-			"last_30_days"				: "过去30天",
-			"this_month"				: "这个月",
-			"last_month"				: "上个月",
-			"all_time"					: "所有时间",
-
-			"second"					: "秒",
-			"seconds"					: "秒",
-			"minute"					: "分钟",
-			"minutes"					: "分钟",
-			"hour"						: "小时",
-			"hours"						: "小时",
-			"day"						: "天",
-			"days"						: "天",
-			"month"						: "月",
-			"months"					: "月",
-			"year"						: "年",
-			"years"						: "年",
-			"time_ago"					: "%1$s %2$s 之前",
-			"time_until"				: "%1$s %2$s 直到",
-
-			"long_days": {
-				"1"						: "周一",
-				"2"						: "周二",
-				"3"						: "周三",
-				"4"						: "周四",
-				"5"						: "周五",
-				"6"						: "周六",
-				"7"						: "周日"
-			},
-
-			"short_days": {
-				"1"						: "周一",
-				"2"						: "周二",
-				"3"						: "周三",
-				"4"						: "周四",
-				"5"						: "周五",
-				"6"						: "周六",
-				"7"						: "周日"
-			},
-
-			"long_months": {
-				"1"						: "一月",
-				"2"						: "二月",
-				"3"						: "三月",
-				"4"						: "四月",
-				"5"						: "五月",
-				"6"						: "六月",
-				"7"						: "七月",
-				"8"						: "八月",
-				"9"						: "九月",
-				"10"					: "十月",
-				"11"					: "十一月",
-				"12"					: "十二月"
-			},
-
-			"short_months": {
-				"1"						: "一月",
-				"2"						: "二月",
-				"3"						: "三月",
-				"4"						: "四月",
-				"5"						: "五月",
-				"6"						: "六月",
-				"7"						: "七月",
-				"8"						: "八月",
-				"9"						: "九月",
-				"10"					: "十月",
-				"11"					: "十一月",
-				"12"					: "十二月"
-			}
-        },
-
-        "number": {
-            "decimal_point"				: ".",
-            "thousands_separator"		: ","
-        },
-
-		"emails": {
-			"user_activation": {
-				"subject"				: "确认您的新账户 - {{WEBSITE_TITLE}}",
-				"body"					: "您好, {{NAME}},<br /><br />我们很高兴您加入我们! <br /><br />再过一步，您就准备好了,<br /><br />您只需点击以下链接, {{WEBSITE_TITLE}}<br /><br /><a href=\"{{ACTIVATION_LINK}}\">即可激活您的账户</a><br /><br />来自{{WEBSITE_TITLE}}的祝福!"
-			},
-
-			"user_pending_email": {
-				"subject"				: "确认您邮箱地址的改变 - {{WEBSITE_TITLE}}",
-				"body"					: "您好 {{NAME}},<br /><br />您请求把您的帐号邮箱地址从 {{CURRENT_EMAIL}} 更改为 {{NEW_EMAIL}}. <br /><br />请点击. <br /><br /><a href=\"{{ACTIVATION_LINK}}\">确认您邮箱地址的改变</a><br /><br />来自{{WEBSITE_TITLE}}的祝福!"
-			},
-
-			"user_lost_password": {
-				"subject"				: "重置您的密码 - {{WEBSITE_TITLE}}",
-				"body"					: "您好 {{NAME}},<br /><br />This is your reset password link: <a href=\"{{LOST_PASSWORD_LINK}}\">Reset Password</a><br /><br />If you did not request this, you can ignore it!<br /><br />Greetings from {{WEBSITE_TITLE}}!"
-			},
-
-			"user_payment": {
-				"subject"				: "Payment received - {{WEBSITE_TITLE}}",
-				"body"					: "Hey there {{NAME}},<br /><br />This is a confirmation that your payment has been received by us.<br /><br />Your account plan is now paid until {{PLAN_EXPIRATION_DATE}}!<br /><br />You can also check all the <a href=\"{{USER_PAYMENTS_LINK}}\">payments</a> you made, <a href=\"{{USER_PLAN_LINK}}\">change your plan</a> or <a href=\"{{USER_PLAN_LINK}}\">cancel it</a>.<br /><br />Greetings from {{WEBSITE_TITLE}}!"
-			},
-
-			"user_plan_expiry_reminder": {
-				"subject"				: "Your plan is expiring in {{DAYS_UNTIL_EXPIRATION}} days - {{WEBSITE_TITLE}}",
-				"body"					: "Hey there {{NAME}},<br /><br />This is a simple email to remind you that your {{PLAN_NAME}} plan is going to expire in {{DAYS_UNTIL_EXPIRATION}} days.<br /><br />Please <a href=\"{{USER_PLAN_RENEW_LINK}}\">renew your plan</a> if you wish to continue using our website with all the features you have.<br /><br />Greetings from {{WEBSITE_TITLE}}!"
-			},
-
-			"teams_association_create": {
-				"subject"				: "You've been invited to '{{TEAM_NAME}}' team - {{WEBSITE_TITLE}}",
-				"body_login"			: "Hey there,<br /><br />You have been invited by {{USER_NAME}} ({{USER_EMAIL}}) to join the {{TEAM_NAME}} team on {{WEBSITE_TITLE}}.<br /><br />Click here to <a href=\"{{LOGIN_LINK}}\">login and accept the invitation</a>.<br /><br />Greetings from {{WEBSITE_TITLE}}!",
-				"body_register"			: "Hey there,<br /><br />You have been invited by {{USER_NAME}} ({{USER_EMAIL}}) to join the {{TEAM_NAME}} team on {{WEBSITE_TITLE}}.<br /><br />Click here to <a href=\"{{REGISTER_LINK}}\">register and accept the invitation</a>.<br /><br />Greetings from {{WEBSITE_TITLE}}!"
-			},
-
-			"admin_new_user_notification": {
-				"subject"				: "New user registered - {{WEBSITE_TITLE}}",
-				"body"					: "Hey!<br /><br />A new user just registered to the website!<br /><br />Welcome to {{NAME}} ({{EMAIL}}) to your website!"
-			},
-
-			"admin_new_payment_notification": {
-				"subject"				: "New payment via {{PROCESSOR}} of {{TOTAL_AMOUNT}} {{CURRENCY}} - {{WEBSITE_TITLE}}",
-				"body"					: "Hey!<br /><br />{{NAME}} ({{EMAIL}}) user just paid <strong>{{TOTAL_AMOUNT}} {{CURRENCY}}</strong> to your website!<br /><br />Here's to more earnings!"
-			},
-
-			"admin_new_affiliate_withdrawal_notification": {
-				"subject"				: "New affiliate withdrawal request for {{TOTAL_AMOUNT}} {{CURRENCY}} - {{WEBSITE_TITLE}}",
-				"body"					: "Hey!<br /><br />{{NAME}} ({{EMAIL}}) user just submitted an affiliate withdrawal request for <strong>{{TOTAL_AMOUNT}} {{CURRENCY}}</strong> with the following note: \"{{AFFILIATE_WITHDRAWAL_NOTE}}\".<br /><br /><a href=\"{{ADMIN_AFFILIATE_WITHDRAWAL_LINK}}\">View affiliate withdrawal</a>"
-			}
-		},
-
-		"footer": {
-			"legal"						: "Legal",
-			"pages"						: "Pages",
-			"social"					: "Social",
-			"copyright"					: "Copyright &copy; %s %s"
-		},
-
-        "plan_settings": {
-            "no_ads"                    : "无广告",
-			"teams_is_enabled"			: "团队",
-			"email_reports_is_enabled"	: "邮箱报告",
-			"email_reports_is_enabled_weekly"	: "每周报告",
-			"email_reports_is_enabled_monthly"	: "每月报告",
-			"unlimited_websites_limit"	: "无限制的网站",
-			"websites_limit"			: "%s 个网站",
-			"unlimited_sessions_events_limit"	: "无限制的访问量",
-			"sessions_events_limit"				: "%s 访问量",
-			"unlimited_events_children_limit"	: "无限的访客活动追踪",
-			"events_children_limit"				: "%s 个访客活动追踪",
-			"events_children_retention"			: "%s 天的访客活动追踪的数据保留天数",
-			"unlimited_sessions_replays_limit"	: "无限次的会话回放",
-			"sessions_replays_limit"			: "%s 次会话回放",
-			"sessions_replays_retention"		: "%s 天的会话回放的数据保留天数",
-			"unlimited_websites_heatmaps_limit"	: "无限制的网站热力图",
-			"websites_heatmaps_limit"			: "%s 个网站热力图",
-			"unlimited_websites_goals_limit"	: "无限个追踪的目标",
-			"websites_goals_limit"				: "%s 个追踪目标",
-			"api_is_enabled"					: "API访问权限",
-			"api_is_enabled_help"				: "获得访问REST API的权限.",
-			"per_month"							: "每月,每网站"
-		},
-
-		"team": {
-			"is_enabled"				: "查看 %s 团队",
-			"logout"					: "登出"
+		"input": {
+			"url"						: "Slug",
+			"url_placeholder"			: "your-pages-category-url",
+			"title"						: "Title",
+			"description"				: "Short description",
+			"icon"						: "Icon",
+			"icon_placeholder"			: "ex: fa fa-plane",
+			"icon_help"					: "Font Awesome icon, leave empty for no icon.",
+			"order"						: "Order",
+			"order_help"				: "Easily arrange pages categories with numbers. Displaying on the website is ascendent."
 		}
 	},
 
-	"analytics": {
-		"pageviews"						: "浏览量",
-		"sessions"						: "会话数",
-		"visitors"						: "访客数",
-		"replays"						: "回放",
-		"bounce_rate"					: "Bounce",
-		"goals"							: "目标",
-		"conversions"					: "转换",
+	"admin_pages_category_create": {
+		"title"							: "Create pages category",
+		"header"						: "Create a new pages category"
+	},
 
-		"pageview": {
-			"name"						: "浏览量",
-			"icon"						: "fa fa-fw fa-eye"
+	"admin_pages_category_update": {
+		"title"							: "Update pages category",
+		"header"						: "Update pages category"
+	},
+
+	"admin_pages_category_delete_modal": {
+		"header"						: "Delete Pages Category",
+		"subheader"						: "All the pages inside this category will be deleted as well. This action cannot be undone.",
+
+		"success_message"				: "Pages category deletion was performed successfully!"
+	},
+
+	"admin_pages": {
+		"title"							: "Pages management",
+		"menu"							: "Pages",
+		"header"						: "Pages",
+		"header_no_data"				: "Create your first page",
+		"subheader_no_data"				: "Create additional pages that you can attach to the platform with ease.",
+		"create"						: "Create Page",
+
+		"pages": {
+			"page"						: "Page",
+			"position"					: "Position",
+			"position_top"				: "Top menu",
+			"position_bottom"			: "Bottom menu",
+			"position_hidden"			: "Hidden",
+			"total_views"				: "%s views"
 		},
 
-		"landing_page": {
-			"name"						: "登陆页",
-			"icon"						: "fa fa-fw fa-plane-arrival"
+		"main": {
+			"header"					: "Main",
+			"subheader"					: "The main settings of the page."
 		},
 
-		"click": {
-			"name"						: "点击",
-			"icon"						: "fa fa-fw fa-mouse-pointer",
-			"value"						: "on %s"
+		"secondary": {
+			"header"					: "Secondary",
+			"subheader"					: "Extra settings for the page."
 		},
 
-		"resize": {
-			"name"						: "调整大小",
-			"icon"						: "fa fa-fw fa-crop",
-			"value"						: "to %s viewport"
+		"input": {
+			"title"						: "Title",
+			"description"				: "Short description",
+			"url_internal"				: "Slug",
+			"url_internal_placeholder"	: "ex: page-url",
+			"url_external"				: "External Url",
+			"url_external_placeholder"	: "ex: https://domain.com/",
+			"editor"					: "Editor",
+			"editor_raw"				: "No editor",
+			"editor_wysiwyg"			: "WYSIWYG",
+			"content"					: "Content",
+			"position"					: "Position",
+			"position_top"				: "Top menu",
+			"position_bottom"			: "Bottom menu",
+			"position_hidden"			: "Hidden",
+			"type"						: "Type",
+			"type_internal"				: "Internal",
+			"type_external"				: "External",
+			"pages_category_id"			: "Category",
+			"pages_category_id_null"	: "No category",
+			"order"						: "Order",
+			"order_help"				: "Easily arrange pages with numbers. Displaying on the website is ascendent.",
+			"date"						: "First created on",
+			"last_date"					: "Last edited on"
+		}
+	},
+
+	"admin_page_delete_modal": {
+		"header"						: "Delete Page",
+		"subheader"						: "This action cannot be undone.",
+
+		"success_message"				: "Page deletion was performed successfully!"
+	},
+
+	"admin_page_create": {
+		"title"							: "Create Page",
+		"header"						: "Create Page"
+	},
+
+	"admin_page_update": {
+		"title"							: "Page Update",
+		"header"						: "Page Update"
+	},
+
+	"admin_plans": {
+		"title"							: "Plans management",
+		"menu"							: "Plans",
+		"header"						: "Plans management",
+		"create"						: "Create Plan",
+
+		"table": {
+			"name"						: "Plan Name",
+			"custom_help"				: "Custom plans can be defined directly from the User Update page.",
+			"monthly_price"				: "Monthly Price",
+			"annual_price"				: "Annual Price",
+			"users"						: "Users",
+			"status"					: "Status"
 		},
 
-		"scroll": {
-			"name"						: "Scroll",
-			"icon"						: "fa fa-fw fa-arrows-alt-v",
-			"value"						: "%s%% from the top"
-		},
+		"main": {
+			"header"					: "Main",
+			"subheader"					: "Define the main settings of the plan.",
 
-		"form": {
-			"name"						: "Form Submission",
-			"icon"						: "fa fa-fw fa-paper-plane"
-		},
-
-		"referred_by"					: "Referred by %s",
-		"viewport"						: "Viewport (browser dimensions)",
-
-		"filters": {
-			"toggle"					: "Filter",
-			"header"					: "Active filters",
-			"subheader"					: "Create and modify filters to segmentize and check only the data that you need.",
-			"create"					: "Add filter",
-
-			"by": {
-				"country_code"			: "Country Code",
-				"screen_resolution"		: "Screen Resolution",
-				"browser_language"		: "Browser Language",
-				"os_name"				: "Operating System",
-				"device_type"			: "Device",
-				"browser_name"			: "Browser",
-
-				"path"					: "Path",
-				"title"					: "Page Title",
-				"referrer_host"			: "Referrer Host",
-				"utm_source"			: "UTM Source",
-				"utm_medium"			: "UTM Medium",
-				"utm_campaign"			: "UTM Campaign"
+			"trial": {
+				"days"					: "Days",
+				"days_help"				: "The number of days that the trial plan can be used."
 			},
 
-			"rule": {
-				"is"					: "Is",
-				"is_not"				: "Is not",
-				"contains"				: "Contains",
-				"starts_with"			: "Starts with",
-				"ends_with"				: "Ends with"
-			}
-		}
-	},
-
-	"pixel": {
-		"success_message": {
-			"verify"					: "The Pixel Code has been installed properly."
+			"name"						: "Name",
+			"monthly_price"				: "Monthly Price",
+			"annual_price"				: "Annual Price",
+			"lifetime_price"			: "Lifetime deal price",
+			"price_help"				: "Set 0 to disable the %s",
+			"status"					: "Status",
+			"order" 					: "Order",
+			"taxes_ids"					: "Applied Taxes",
+			"taxes_ids_help"			: "Easily select which of your %screated taxes%s you want to apply per plan."
 		},
-
-		"info_message": {
-			"dnt"						: "Do Not Track is enabled, we are respecting your privacy and we do not track you.",
-			"optout"					: "You opted out of tracking, we are respecting your privacy and your decision and we do not track you."
-		}
-	},
-
-	"pixel_track": {
-		"error_message": {
-			"excluded_bot"				: "You have been excluded from tracking as you're detected as a bot.",
-			"excluded_ip"				: "Your IP is excluded from tracking.",
-			"no_post"					: "No posted data",
-			"type_not_allowed"			: "Type not allowed",
-			"no_referrer"				: "No referer",
-			"plan_limit"				: "Plan limit reached",
-			"no_website"				: "Website not found or not active",
-			"expired_plan"				: "Plan is expired"
-		}
-	},
-
-	"page": {
-		"breadcrumb"					: "Page",
-		"print"							: "Print",
-
-		"estimated_reading_time"		: "%s read",
-		"last_date"						: "Last updated on: %s"
-	},
-
-	"pages": {
-		"title"							: "Pages",
-		"header"						: "Resources center",
-		"subheader"						: "Here you can find useful page resources depending on your needs.",
-		"total_views"					: "(%s views)",
-
-		"index": {
-			"breadcrumb"				: "Pages",
-
-			"popular_pages": {
-				"header"				: "Popular pages"
-			},
-
-			"pages_categories": {
-				"header"				: "Categories",
-				"total_pages"			: "%s available pages"
-			}
-		},
-
-		"pages_category": {
-			"breadcrumb"				: "Pages Category"
-		}
-	},
-
-	"help": {
-        "menu"                          : "Help",
-		"title"							: "%s - Help",
-		"pros"							: "Pros",
-		"cons"							: "Cons",
-
-		"introduction": {
-			"title"						: "Introduction",
-			"menu"						: "Introduction",
-			"header"					: "Introduction",
-			"p1"						: "This is the documentation for %s, a web analytics platform that is friendly, easy to use with the features that you need to keep track your websites.",
-			"p2"						: "These help pages are created to specifically get in more detail of how the website works and how you can benefit from our functions that we provide.",
-			"p3"						: "If you believe that what you read on these help pages is not enough or that you have any other questions, please do not hesitate to contact us."
-		},
-
-		"setup": {
-			"title"						: "How to add your website",
-			"menu"						: "Add your website",
-			"header"					: "How to add your website",
-			"p1"						: "The setup process is very simple and intuitive, here is how to do it.",
-
-			"step1"						: "Make sure you have an account, you are logged in and that your plan is active.",
-			"step2"						: "Go to the <a href=\"%s\">websites</a> page.",
-			"step3"						: "Click the <code>Add Website</code> button and a simple form will appear.",
-			"step4"						: "Fill in the <code>Name</code> of your website, a simple identifier for you. It does not matter to us what you write in this box.",
-			"step5"						: "Select the protocol that your website uses, <code>http</code> or <code>https</code>. We recommend using <code>https</code> and making sure your website has an SSL Certificate.",
-			"step6"						: "Fill in the <code>Website</code> field with your website domain, subdomain or domain path. Ex: <strong>domain.com</strong>, <strong>subdomain.domain.com</strong>, <strong>domain.com/path</strong>."
-		},
-
-		"install": {
-			"title"						: "How to install the tracking script",
-			"menu"						: "Install tracking script",
-			"header"					: "How to install the tracking script",
-			"p1"						: "The installation process for our script is straight forward as it only requires you to place a simple JavaScript code in your website.",
-			"p2"						: "Afterwards, with this code, all your website visitors will load the script in the background from your website and give us all the needed details to do our magic and give you the analytics that you need.",
-
-			"step1"						: "Make sure you are logged in to your account.",
-			"step2"						: "Go to your <a href=\"%s\">websites list</a> that you added.",
-			"step3"						: "Click on the <code>Tracking code</code> button and a simple modal will appear.",
-			"step4"						: "Click on the <code>Copy Pixel</code> button or <code>select and copy</code> the code from the textbox area.",
-			"step5"						: "Place this code in the <strong>header of your website</strong>, right before the end of the <code>&lt;/head&gt;</code> html tag.",
-			"step6"						: "Click on the <code>Verify installation</code> tab and then click the button. If you see an alert box saying that the pixel is installed, then you finished the installation process."
-		},
-
-		"lightweight_tracking": {
-			"title"						: "Lightweight tracking",
-			"menu"						: "Lightweight tracking",
-			"header"					: "Lightweight tracking mode",
-
-			"p1"						: "We have developed the lightweight tracking mode for people who care more about privacy and want a simple and performant tracking solution.",
-
-			"pro_1"						: "Extremely lightweight tracking script (< 3 kB)",
-			"pro_2"						: "Very fast",
-			"pro_3"						: "GDPR, CCPA and PECR compliant",
-			"pro_4"						: "No tracking consent is needed as it doesn't store any personal identifiable information",
-			"pro_5"						: "It doesn't use cookies nor local storage,",
-
-			"con_1"						: "You can't associate a visitor with previous visits",
-			"con_2"						: "Heatmaps & session replays not available"
-		},
-
-		"advanced_tracking": {
-			"title"						: "Advanced tracking",
-			"menu"						: "Advanced tracking",
-			"header"					: "Advanced tracking mode",
-
-			"p1"						: "We have developed the advanced tracking mode for people who want more in-depth analytics and want to discover more about their visitors behaviour.",
-
-			"pro_1"						: "Visitor history",
-			"pro_2"						: "Heatmaps & session replays ready",
-			"pro_3"						: "More available tracking statistics",
-			"pro_4"						: "Associate custom parameters with visitors",
-
-			"con_1"						: "Needs tracking consent",
-			"con_2"						: "Needs more data to be sent, depending on what modules are activated"
-		},
-
-		"goals": {
-			"title"						: "Goals",
-			"menu"						: "Goals",
-			"header"					: "Goals",
-			"p1"						: "First of all, you need to understand the concept of a goal. A goal is something that you want to track that the already existing analytics are not tracking—anything from a button click, downloads, specific page view, like a thank-you page after a checkout...etc.",
-
-			"pageview": {
-				"header"				: "Pageview",
-				"p1"					: "The pageview goal is the easiest to set up and the conversion of the goal will happen once a visitor reaches a certain specified page.",
-				"p2"					: "A good example would be when you have a 'thank you' page after the conversion happened (newsletter, purchase, form submission...etc) where the user will land on after."
-			},
-
-			"custom": {
-				"header"				: "Custom",
-				"p1"					: "Custom goals will require some extra code implemented to the tracked website, which is specified when you create a new goal from the dashboard.",
-				"p2"					: "A custom goal is mainly used for when you want to track a specific event that happens on your website, which can't be tracked with the pageview method.",
-				"p3"					: "Some examples of where custom goals will shine are:",
-				"li1"					: "Tracking clicks on external links",
-				"li2"					: "Tracking more advanced form submissions",
-				"li3"					: "Tracking clicks on specific parts of your pages",
-				"li4"					: "Any other custom action that javascript can listen to and you want to track",
-				"p4"					: "Here is what a javascript snippet would look like for goal tracking:",
-				"p5"					: "When this code will trigger inside of your page, the goal conversion will be triggered as well on our side."
-			}
-		},
-
-		"custom_parameters": {
-			"title"						: "Custom parameters",
-			"menu"						: "Custom parameters",
-			"header"					: "Custom parameters",
-			"p1"						: "If you wish to identify your visitors via custom parameters, then here is how you can do that.",
-			"p2"						: "This feature can be helpful when you have a website that has a membership system where users can log into your website. If they are logged in, you can specify their identifier (ex: email, user_id, name..etc) with our tracking code.",
-			"p3"						: "Why? This becomes very helpful when trying to understand what your users are doing and what problems they encountered on your website.",
-			"p4"						: "You can do this by simply adding <code>data-custom-parameters='{JSON_PARAMETERS_HERE}'</code> like in the following example:",
-			"p5"						: "If that extra parameter is provided then, in the Visitors page you will see the <i class=\"fa fa-fw fa-fingerprint text-primary\"></i> icon near the visitor which tells you that that specific user has been identified with custom parameters."
-		},
-
-		"opt_out": {
-			"title"						: "Opt-Out",
-			"header"					: "Opt-Out",
-			"menu"						: "Opt-Out",
-			"p1"						: "We do take privacy and your privacy seriously and we provide you and your users the ability to opt-out of any website that uses our tracking system.",
-			"p2"						: "If you are a website owner that uses our tracking services then, we highly recommend you to provide the following option for your users to be able to opt-out of the tracking.",
-			"p3"						: "The opt-out process is straight forward and can be done by simply accessing any website that has our tracking code installed and adding the following query parameter in your browser: <code>?pixel_optout=true</code>",
-			"p4"						: "So if your website is <code>https://domain.com/</code> and you have our pixel tracking code installed, you and your users can opt-out of the tracking by accessing the following URL <code>https://domain.com/?pixel_optout=true</code>.",
-			"p5"						: "By doing this, we set a local storage variable in your browser that tells our pixel tracking code to stop and do not further execute. Clearing your local storage, changing the browser or running the site in incognito will enable tracking again as the Opt-Out variable is not set anymore."
-		},
-
-		"dnt": {
-			"title"						: "Do Not Track",
-			"header"					: "Do Not Track",
-			"menu"						: "Do Not Track",
-			"p1"						: "Yes, we do honor the <a href=\"https://en.wikipedia.org/wiki/Do_Not_Track\">Do Not Track</a> (DNT) setting from browsers which support this.",
-			"p2"						: "Do not track is a setting from your browser which, after you enable it, it will tell the sites that you visit that you do not want to be tracked. Unfortunately, it is not very well supported by browsers as of yet but if we receive this header setting from your browser, we are honoring it!",
-			"p3"						: "What if you want to track everyone and skip the DNT setting? It is possible to do that as well if you are a website owner.",
-			"p4"						: "To ignore the DNT and to also track those visitors, simply add <code>data-ignore-dnt=\"true\"</code> like in the following example:"
-		},
-
-		"faq": {
-			"menu"						: "FAQ",
-			"header"					: "Frequently asked questions",
-			"p1"						: "Some of the most asked questions and their quick answers.",
-
-			"q1"						: "Will the pixel tracking code slow down my website?",
-			"a1"						: "No. It does not slow the website at all as the javascript code is running asynchronously and waits for the page to be ready until it executes and starts the tracking process.",
-
-			"q2"						: "Why are some visitors excluded from tracking?",
-			"a2"						: "There are some cases where a visitor can be excluded from tracking:",
-			"a2li1"						: "Visitor has a browser which has JavaScript disabled",
-			"a2li2"						: "Visitor has a browser which has localStorage disabled or not working",
-			"a2li3"						: "Visitor has a browser/browser plugin that is blocking tracking",
-			"a2li4"						: "Visitor has a opted-out of tracking from your website"
-		}
-	},
-
-	"plan": {
-		"breadcrumb"					: "Choose plan",
-		"title"							: "Plan",
-		"header_new"					: "Choose your plan",
-		"subheader_new"					: "Select one plan to continue your subscription.",
-		"header_renew"					: "Renew your plan",
-		"subheader_renew"				: "Select one plan to renew your subscription.",
-		"header_upgrade"				: "Upgrade your plan",
-		"subheader_upgrade"				: "Select one plan to upgrade your subscription.",
-
-		"free": {
-			"price"						: "Free"
-		},
-
-		"trial": {
-			"price"						: "Trial"
-		},
-
-		"custom_plan": {
-			"monthly"					: "Monthly",
-			"annual"					: "Annual",
-			"lifetime"					: "Lifetime",
-			"monthly_payments"			: "Monthly payments.",
-			"annual_payments"			: "Annual payments.",
-			"lifetime_payments"			: "Lifetime payments."
-		},
-
-		"button": {
-			"choose"					: "Choose plan",
-			"disabled"					: "Disabled",
-			"already_free"				: "Your plan"
-		}
-	},
-
-	"pay_billing": {
-		"breadcrumb"					: "Billing",
-		"title"							: "Billing",
-		"header"						: "Fill in your billing details",
-		"subheader"						: "We require your billing details for generating proper invoices & for tax handling, provide valid billing details only.",
-		"submit"						: "Update & continue to %s checkout"
-	},
-
-	"pay": {
-		"breadcrumb"					: "%s plan",
-		"title"							: "Pay",
-		"plan_details"					: "What you'll get",
-		"accept"						: "By continuing with your order you confirm that you read, understand & agree to the %s and %s of the site.",
-
-		"free": {
-			"free_already"				: "Your already have the free plan activated!",
-			"other_plan_not_expired"	: "Your current plan is not expired yet, you will get the free plan after it expires!"
-		},
-
-		"trial": {
-			"header"					: "Start the %s plan",
-			"subheader"					: "You are almost there.",
-
-			"trial_done"				: "Your trial option was already used, you can't renew it anymore.",
-			"other_plan_not_expired"	: "Your current plan is not expired yet, if you start your trial it will override it!",
-			"trial_start"				: "Start my %s days trial"
-		},
-
-		"custom_plan": {
-			"header"					: "Purchase the %s plan",
-			"subheader"					: "You are almost there, complete the following form and checkout.",
-
-			"paypal"					: "PayPal",
-			"stripe"					: "Stripe",
-			"offline_payment"			: "Offline payment",
-
-			"payment_frequency"			: "Payment frequency",
-			"monthly"					: "Monthly Payments",
-			"annual"					: "Annual Payments",
-			"annual_savings"			: "%s %s",
-			"lifetime"					: "Lifetime deal",
-			"lifetime_help"				: "One time payment",
-
-			"code_button"				: "I have a discount code",
-			"code" 						: "Discount code",
-
-			"payment_processor"			: "Payment method",
-			"no_processor"				: "There are no payment processors available at the moment.",
-			"offline_payment_instructions": "Payment instructions",
-			"offline_payment_proof"		: "Proof of payment",
-			"offline_payment_proof_help": "Upload the proof of payment (jpg, jpeg, png or pdf).",
-
-			"payment_type"				: "Type of payment",
-			"one_time_type"				: "One Time Payment",
-			"recurring_type"            : "Recurring Payment",
-
-			"summary": {
-				"header"				: "Order summary",
-
-				"plan"					: "Plan",
-
-				"payment_frequency"		: "Frequency",
-				"monthly"				: "Monthly",
-				"monthly_help"			: "Every 30 days",
-				"annual"				: "Yearly",
-				"annual_help"			: "Every 365 days",
-				"lifetime"				: "Lifetime",
-				"lifetime_help"			: "",
-
-				"payment_processor"		: "Paid with",
-
-				"payment_type"			: "Type",
-				"one_time"				: "One time",
-				"one_time_help"			: "",
-				"recurring"				: "Recurring",
-				"recurring_help"		: "Automatic billing",
-
-				"plan_price"			: "Price",
-
-				"discount"				: "Discount",
-
-				"tax_inclusive"			: "Inclusive",
-				"tax_exclusive"			: "Exclusive",
-
-				"total"					: "Total"
-			},
-
-			"pay"						: "Checkout"
-		},
-
-		"success_message": {
-			"code"						: "Applied discount code for %s."
-		},
-
-		"error_message": {
-			"code_invalid"				: "This discount code is invalid..",
-			"code_used"					: "You have already used this discount code..",
-			"canceled_payment"			: "It seems you've canceled the payment for some reason.",
-			"failed_payment"			: "Something didn't work quite right, please try again if this persists contact the site admin.",
-			"offline_payment_proof_missing": "You must upload a payment proof before submitting the payment order."
-		}
-	},
-
-	"pay_thank_you" : {
-		"title"							: "Thank you",
-		"header"						: "Thank you!",
-		"button"						: "Go to my dashboard",
-
-		"plan_trial_start"				: "Your trial period just started!",
-		"plan_custom_start"				: "Your payment went through and your new membership is activated!",
-		"plan_custom_will_start" 		: "Your payment was sent and your new membership will be activated!",
-		"plan_custom_pending" 			: "Your payment order was sent and your new membership will be activated if the proof will be accepted!"
-	},
-
-	"account": {
-		"title"							: "Account",
-		"menu"							: "Account",
 
 		"plan": {
-			"header"				    : "%s Plan",
-			"subheader"			    	: "ends on %s",
-			"upgrade_plan"				: "Upgrade Plan",
-			"renew_plan"				: "Renew/Change Plan"
+			"header"					: "Plan Settings",
+			"subheader"					: "Choose which features to enable for this plan.",
+			"per_month"					: "per month, per website",
+
+			"websites_limit"			: "Total Websites Limit",
+			"websites_limit_help"		: "Set -1 for unlimited.",
+			"sessions_events_limit"		: "Pageviews Limit",
+			"sessions_events_limit_help": "Set -1 for unlimited.",
+			"events_children_limit"		: "Visitors Events Limit",
+			"events_children_limit_help": "Tracking of the behaviour of the users on the website such as (clicks, resizes, form submissions..etc). Set to 0 to disable the feature, set -1 for unlimited.",
+			"events_children_retention"		: "Visitors Events Data Retention",
+			"events_children_retention_help": "How many days will the data be kept in the database.",
+			"sessions_replays_limit"		: "Session Replays Total Limit",
+			"sessions_replays_limit_help"	: "Full and advanced Tracking of the behaviour of the users on the website and the ability to replay those actions. Set to 0 to disable the feature, set -1 for unlimited.",
+			"sessions_replays_retention"	: "Session Replays Data Retention",
+			"sessions_replays_retention_help": "How many days will the data be kept in the database.",
+			"sessions_replays_time_limit"	: "Session Replays Time Limit",
+			"sessions_replays_time_limit_help": "The maximum amount of minutes the session replay will record events for.",
+			"websites_heatmaps_limit"		: "Websites Heatmaps Limit",
+			"websites_heatmaps_limit_help"	: "How many heatmaps can the user create. Set to 0 to disable the feature, set -1 for unlimited.",
+			"websites_goals_limit"		: "Goals tracking limit",
+			"websites_goals_limit_help"	: "Gives the user the ability to track their website goals with the Goals functionality. Set to 0 to disable the feature, set -1 for unlimited.",
+			"no_ads"					: "No Ads",
+			"no_ads_help"				: "Enabling this will make all people having this plan to not see any ads.",
+			"email_reports_is_enabled"		: "Email Reports",
+			"email_reports_is_enabled_help"	: "Enabling this will give all people having this plan the ability to enable email reports for their websites.",
+			"teams_is_enabled"				: "Teams system",
+			"teams_is_enabled_help"			: "Enabling this will give all people having this plan the ability to use the Teams system to create and invite people to their teams.",
+			"api_is_enabled"                : "API access",
+			"api_is_enabled_help"           : "Enable ability for the user to use the REST API."
+		}
+	},
+
+	"admin_plan_delete_modal": {
+		"header"						: "Delete Plan",
+		"subheader"						: "By deleting the plan, all the recurring subscriptions of this plan will be cancelled. Users will still have their features they paid for until the Expiration Date of the plan. This action cannot be undone.",
+
+		"success_message"				: "Plan deletion was performed successfully!"
+	},
+
+	"admin_plan_create": {
+		"title"							: "Create Plan",
+		"menu"							: "Create Plan",
+		"header"						: "Create a new plan"
+	},
+
+	"admin_plan_update": {
+		"title"							: "Update plan",
+		"header"						: "Update the %s plan",
+
+		"update_users_plan_settings": {
+			"button"					: "Update and update plan subscribers as well",
+			"button_help"				: "By updating the plan subscribers you will overwrite all their current settings with the new settings of this plan."
 		},
 
-		"settings": {
-			"header"					: "Settings",
-			"subheader"					: "Basic profile settings of your account.",
+		"error_message": {
+			"disabled_plans"			: "You are not allowed to disable all the plans which are available (Custom plans are not considered if the payment system is disabled)."
+		}
+	},
 
-			"email"						: "Email",
-			"name"						: "Name",
-			"timezone"					: "Timezone",
-			"timezone_help"				: "Your preferred way of displaying dates."
-		},
+	"admin_codes": {
+		"title"							: "Codes management",
+		"menu"							: "Codes",
+		"header"						: "Codes management",
+		"header_no_data"				: "Create your first code",
+		"subheader_no_data"				: "Create discount codes or fully redeemable codes that you can share to your users.",
+		"create"						: "Create code",
 
-		"billing": {
-			"header"					: "Billing details",
-			"subheader"					: "These billing details are used when generating invoices after a successful payment.",
-
-			"subscription_id_active"	: "You have an active subscription, you can't change the billing details until the subscription expires or is cancelled.",
-
+		"table": {
+			"code"						: "Code",
 			"type"						: "Type",
-			"type_personal"				: "Personal",
-			"type_business"				: "Business",
-			"name"						: "Name",
-			"address"					: "Address",
-			"city"						: "City",
-			"county"					: "County",
-			"country"					: "Country",
-			"zip"						: "ZIP",
-			"phone"						: "Phone",
-			"tax_id"					: "Tax ID"
-		},
-
-		"change_password": {
-			"header"					: "Change Password",
-			"subheader"					: "If you do not want to change your password, do not fill any of those fields below.",
-
-			"current_password"			: "Current Password",
-			"new_password"				: "New Password",
-			"repeat_password"			: "Repeat Password"
-		},
-
-		"twofa": {
-			"header"					: "Two-factor authentication",
-			"subheader"					: "Use a mobile authentication app to get a verification code to enter every time you log in.",
-
-			"is_enabled"				: "Enable Two-factor authentication",
-			"qr"						: "1. Scan QR Code",
-			"qr_help"					: "Open the authentication app (ex: Authy, Google Authenticator) on your mobile device and scan the following QR Code with your camera.",
-
-			"secret"					: "Can't scan the QR Code?",
-			"secret_help"				: "Try inserting the following secret code into your app if you can't scan the QR Code.",
-
-			"verify"					: "2. Enter freshly generated token",
-			"verify_help"				: "To confirm that you setup your code properly, please enter the 6-digit token from your mobile app."
-		},
-
-		"info_message": {
-			"user_pending_email"		: "An email confirmation was sent to the new email address. Make sure to check and confirm it via email."
-		},
-
-		"error_message": {
-			"invalid_current_password"	: "Your current password is not valid!",
-			"short_password"			: "Your password is too short, you must have at least 6 characters!",
-			"passwords_not_matching"	: "Your entered passwords do not match",
-			"twofa_check"				: "The token that you entered is not valid, please try again to setup the Two-factor authentication system."
-		},
-
-		"success_message": {
-			"account_updated"			: "Your account was updated!",
-            "subscription_canceled"     : "Your recurring subscription was canceled!"
-		}
-	},
-
-	"account_delete": {
-		"title"							: "Delete account",
-		"menu"							: "Delete account",
-		"header"						: "Delete account",
-		"subheader"						: "By deleting the account, all of your stored data will be deleted. <br /> This action is irreversible once done.",
-		"current_password"				: "Current Password",
-
-		"error_message": {
-			"invalid_current_password"	: "Your current password is not valid!"
-		}
-	},
-
-	"account_plan": {
-		"title"							: "Account Plan",
-		"menu"							: "Plan",
-		"header"						: "Account Plan",
-
-		"plan":{
-			"renews"					: "Plan will renew on %s",
-			"expires"					: "Plan ends on %s"
-		},
-
-		"cancel": {
-			"header"					: "Cancel Subscription",
-			"subheader"					: "By cancelling your subscription no further payments will be made. <br /> You will still have access to your features that you paid for until the expiration date.",
-			"cancel"					: "Cancel Subscription",
-			"confirm_message"			: "Are you sure you want to cancel the next billing of your subscription?"
-		},
-
-		"code": {
-			"header"					: "Redeem",
-			"subheader"					: "Redeeming a code will cancel your current plan and automatically switch you to the new plan associated with the code.",
-
-			"input"						: "Redemption code",
-			"submit"					: "Activate"
-		},
-
-		"success_message": {
-			"code_redeemed"				: "Code has been successfully redeemed!",
-			"code"						: "Redeemable code is available: %s for %s days."
-		},
-
-		"error_message": {
-			"code_invalid"				: "This redeemable code is invalid..",
-			"code_used"					: "You have already used this redeemable code.."
-		}
-	},
-
-	"account_payments": {
-		"title"							: "Account Payments",
-		"menu"							: "Payments",
-		"header"						: "Account Payments",
-		"subheader"						: "All the payments made on your account.",
-
-		"payments": {
-			"customer"					: "Customer",
-			"type"						: "Type",
-			"date"						: "Date",
-			"name"						: "Full Name",
-			"total_amount"				: "Total Amount",
 			"plan_id"					: "Plan",
-			"invoice"					: "Invoice",
-			"status_pending"			: "Pending approval",
-			"status_approved"			: "Approved",
-
-			"no_data"					: "No payments for now.."
+			"plan_id_null"				: "All plans",
+			"discount"					: "Discount",
+			"quantity"					: "Quantity",
+			"redeemed_codes"			: "Redeemed"
 		},
 
-		"filters": {
-			"processor"						: "Processor",
-			"processor_paypal"				: "PayPal",
-			"processor_stripe"				: "Stripe",
-			"processor_offline_payment"		: "Offline payment",
-
-			"type"							: "Type",
-			"type_one_time"					: "One time",
-			"type_recurring"				: "Recurring",
-
-			"frequency"						: "Frequency",
-			"frequency_monthly"				: "Monthly",
-			"frequency_annual"				: "Annual",
-			"frequency_lifetime"			: "Lifetime",
-
-			"order_by_total_amount"			: "Total amount"
-		}
-	},
-
-	"account_logs": {
-		"title"							: "Account logs",
-		"menu"							: "Logs",
-		"header"						: "Account logs",
-		"subheader"						: "A list of your most important recorded activity.",
-
-		"logs": {
+		"main": {
 			"type"						: "Type",
-			"ip"						: "IP",
-			"date"						: "Date",
-
-			"no_data"					: "Your account has no recorded logs..",
-			"no_data_help"				: "Here you will be able to find important log entries regarding your account."
+			"type_discount"				: "Discount",
+			"type_redeemable"			: "Redeemable",
+			"plan_id"					: "Plan",
+			"plan_id_help"				: "Which plan to make the code available for.",
+			"plan_id_null"				: "All plans",
+			"days"						: "Days",
+			"days_help"					: "How many days will the plan be available for.",
+			"code"						: "Code",
+			"discount"					: "Discount Percentage",
+			"discount_help"				: "Choose a discount between 1% and 99% off for the code",
+			"quantity"					: "Quantity",
+			"quantity_help"				: "How many time the code can be used."
 		}
+
 	},
 
-	"account_api": {
-		"title"							: "Account API",
-		"menu"							: "API",
-		"header"						: "API",
-		"subheader"						: "Your API key. If needed, you can get a new one by hitting the button below. Looking for the %sAPI Documentation?%s",
-		"api_key"						: "API Key",
-		"button"						: "Regenerate API Key",
-		"success_message"				: "Your API key was regenerated successfully!"
+	"admin_code_delete_modal": {
+		"header"						: "Delete Code",
+		"subheader"						: "This action cannot be undone.",
+
+		"success_message"				: "Code deletion was performed successfully!"
 	},
 
-	"referrals": {
-		"title"							: "Referrals",
-		"menu"							: "Referrals",
+	"admin_code_create": {
+		"title"							: "Create Code",
+		"menu"							: "Create Code",
+		"header"						: "Create a new code"
+	},
 
-		"invite": {
-			"header"					: "Invite people",
-			"subheader_once"			: "Invite people to %s with the following link and get %s from their first payment to the platform.",
-			"subheader_forever"			: "Invite people to %s with the following link and get %s from all their payments to the platform.",
-			"referral_key"				: "Referral link",
-			"button"					: "Copy referral link"
+	"admin_code_update": {
+		"title"							: "Edit Code",
+		"header"						: "Edit Code",
+		"subheader"						: "Changing the settings will not have any effect on already redeemed or used codes.",
+		"subheader2"					: "You can share the code with a shareable link: %s"
+	},
+
+	"admin_taxes": {
+		"title"							: "Taxes management",
+		"menu"							: "Taxes",
+		"header"						: "Taxes management",
+		"header_no_data"				: "Create your first tax",
+		"subheader_no_data"				: "Create taxes that you can use and apply to paid plans.",
+		"create"						: "Create tax",
+
+		"table": {
+			"tax"						: "Tax",
+			"name"						: "Name",
+			"details"					: "Details",
+			"billing_type"				: "Billing for"
 		},
 
-		"statistics": {
-			"header"					: "Statistics",
-			"referrals"					: "Referrals",
-			"referrals_help"			: "People who have signed up using your referral link.",
-			"converted_referrals"			: "Paying referrals",
-			"converted_referrals_help"		: "People who have signed up & paid for a plan at least once.",
-			"pending_affiliate_commissions" : "Pending commissions",
-			"pending_affiliate_commissions_help" : "All payments are held for 30 days for proper confirmation before they are approved.",
-			"approved_affiliate_commissions": "Approved commissions",
-			"approved_affiliate_commissions_help": "All payments that have been approved, which are ready to be withdrawn."
-		},
+		"main": {
+			"internal_name"				: "Internal name",
+			"internal_name_help"		: "This name won't be shown to the user.",
+			"name"						: "Tax name",
+			"description"				: "Tax description",
+			"value"						: "Tax Value",
+			"value_type"				: "Value Type",
+			"value_type_percentage"		: "Percentage",
+			"value_type_fixed"			: "Fixed",
+			"type"						: "Type",
+			"type_inclusive"			: "Inclusive",
+			"type_exclusive"			: "Exclusive",
+			"billing_type"				: "Billing for",
+			"billing_type_personal"		: "Personal only",
+			"billing_type_business"		: "Business only",
+			"billing_type_both"			: "Personal & Business",
+			"billing_type_help"			: "Select for who you want to apply this tax for.",
+			"countries"					: "Countries",
+			"countries_help"			: "Select the countries that you want to apply this tax on. Leave empty if you want the tax to be applied for all countries."
+		}
 
-		"withdraw": {
-			"header"					: "Withdraw",
-			"subheader"					: "Once you reach at least %s, you can create a withdrawal request.",
+	},
+
+	"admin_tax_create": {
+		"title"							: "Create Tax",
+		"menu"							: "Create Tax",
+		"header"						: "Create a new tax",
+		"subheader"						: "Once a tax is created, it can't be edited or deleted. After the tax is created, you can associate it with your created Plans."
+	},
+
+	"admin_tax_update": {
+		"title"							: "Edit Tax",
+		"header"						: "Edit Tax"
+	},
+
+	"admin_affiliates_withdrawals": {
+		"title"							: "Affiliates withdrawals",
+		"menu"							: "Aff. withdrawals",
+		"header"						: "Affiliates withdrawals",
+
+		"table": {
+			"user"						: "User",
 			"amount"					: "Amount",
 			"is_paid"					: "Is paid",
 			"is_paid_paid"				: "Paid!",
 			"is_paid_pending"			: "Pending",
-			"success_message"			: "Your withdrawal request has been sent for approval and processing!"
+			"datetime"					: "Datetime",
+			"action_pay_affiliate_withdrawal" : "Approve withdrawal"
+		},
+
+		"filters": {
+			"is_paid"					: "Is paid",
+			"is_paid_paid"				: "Paid!",
+			"is_paid_pending"			: "Pending",
+			"order_by_amount"			: "Amount"
 		}
 	},
 
-	"invoice": {
-		"print"							: "Print",
-		"invoice"						: "INVOICE",
-		"invoice_nr"					: "Invoice Nr",
-		"invoice_date"					: "Date",
+	"admin_affiliate_withdrawal_delete_modal": {
+		"header"						: "Delete affiliate withdrawal",
+		"subheader"						: "This action cannot be undone.",
 
-		"vendor"						: "Vendor",
-		"customer"						: "Customer",
+		"success_message"				: "Affiliate withdrawal request deletion was performed successfully!"
+	},
 
-		"name"							: "Name",
-		"address"						: "Address",
-		"city"							: "City",
-		"county"						: "County",
-		"zip"							: "ZIP",
-		"country"						: "Country",
-		"email"							: "Email",
-		"phone"							: "Phone",
-		"tax_id"						: "Tax ID",
+	"admin_affiliate_withdrawal_approve_modal": {
+		"header"						: "Approve withdrawal",
+		"subheader"						: "If you approve the withdrawal, the affiliate withdrawal will be considered as completed and the user will get notified via email. Don't forget to send their payment.",
+
+		"success_message"				: "Affiliate withdrawal request was approved was performed successfully!"
+	},
+
+	"admin_payments": {
+		"title"							: "Payments list",
+		"header"						: "Payments list",
+		"menu"							: "Payments",
 
 		"table": {
-			"item"						: "Item",
-			"amount"					: "Amount",
+			"type"						: "Type",
+			"email"						: "Email",
+			"user"						: "User",
+			"payer"						: "Payer",
+			"total_amount"				: "Total Amount",
+			"action_view_proof"			: "View proof",
+			"action_approve_proof"		: "Approve payment",
+			"invoice"					: "Invoice"
+		},
 
-			"plan"						: "%s Plan",
-			"frequency"					: "%s access.",
-			"frequency_monthly"			: "30 days",
-			"frequency_annual"			: "1 year",
-			"frequency_lifetime"		: "Lifetime",
+		"filters": {
+			"status"					: "Status",
+			"status_paid"				: "Paid",
+			"status_pending"			: "Pending",
 
-			"code"						: "Discount",
-			"code_help"					: "Code used: %s",
+			"plan_id"					: "Plan",
 
-			"total"						: "Total",
-			"paid_via"					: "Paid via %s"
+			"search_by_name"			: "Payer name",
+			"search_by_email"			: "Payer email",
+			"order_by_email"			: "Payer email",
+			"order_by_name"				: "Payer name",
+			"order_by_total_amount"		: "Total amount"
 		}
 	},
 
-	"login": {
-		"menu"							: "登入",
-		"title"							: "登入",
-		"header"						: "登入",
+	"admin_payment_delete_modal": {
+		"header"						: "Delete payment",
+		"subheader"						: "This action cannot be undone.",
 
-		"form": {
-			"email" 					: "邮箱地址",
-			"email_placeholder"			: "邮箱地址",
-			"password"					: "密码",
-			"password_placeholder"		: "密码",
-			"twofa_token"				: "2FA验证码",
-			"twofa_token_placeholder"	: "从你2FA应用获取验证码",
-			"remember_me"				: "记住我",
-			"login"						: "登入"
-		},
+		"success_message"				: "Payment deletion was performed successfully!"
+	},
+
+	"admin_payment_approve_modal": {
+		"header"						: "Approve payment",
+		"subheader"						: "If you approve the payment, the plan for the user will start.",
+
+		"success_message"				: "Payment approval was performed successfully!"
+	},
+
+	"admin_index": {
+		"title"							: "Admin Dashboard",
+		"menu"							: "Dashboard",
+		"header"						: "Dashboard",
 
 		"display": {
-			"register"					: "还没有帐号? %s",
-			"register_help"				: "注册",
-
-			"lost_password"				: "忘记密码",
-			"resend_activation"			: "重新发送激活邮件",
-			"facebook"					: "%s Facebook 登入"
+			"websites"                  : "Websites",
+			"teams"		                : "Teams",
+			"heatmaps"			        : "Heatmaps",
+			"goals" 	                : "Goals",
+			"email_reports"             : "Email reports",
+			"users"                     : "Users",
+			"payments"                  : "Payments",
+			"payments_total_amount"     : "Earned"
 		},
 
-		"info_message": {
-			"twofa_token"				: "Use your authenticator app to get the token for the Two-factor authentication.",
-			"logged_in"					: "Welcome back, %s! You've successfully logged in."
+		"users": {
+			"header"					: "Latest users"
 		},
 
-		"error_message": {
-			"twofa_token"				: "Your two-factor authentication token is invalid!",
-			"wrong_login_credentials"	: "Your login combination is invalid!",
-			"user_not_active"			: "Your account is not confirmed or banned!",
-			"email_is_null"				: "Your facebook account doesn't have an email associated with it, we could not finish the Facebook login process."
+		"payments": {
+			"header"					: "Latest payments"
 		}
 	},
 
-	"lost_password": {
-		"title"							: "忘记密码",
-		"header"						: "忘记密码",
-		"subheader"						: "我们将向您发送一封带有神奇恢复链接的电子邮件,以重置您的密码.",
-		"return"						: "返回登入",
-		"email"		 					: "邮箱",
-		"submit"						: "发送重置链接",
-		"success_message"				: "如果这个邮箱注册了,我们将发生重置邮件!"
-	},
+	"admin_users": {
+		"title"							: "Users management",
+		"header"						: "Users management",
+		"menu"							: "Users",
 
-	"reset_password": {
-		"title"							: "设置一个新密码",
-		"header"						: "设置一个新密码",
-		"subheader"						: "为了提高安全性，确保你的新密码是复杂的.",
-		"return"						: "返回登入",
-		"new_password"					: "新密码",
-		"repeat_password"				: "确认密码",
-		"error_message": {
-			"short_password"			: "你的密码太短了,至少6个字符!",
-			"passwords_not_matching"	: "你两次输入的密码不匹配!"
+		"table": {
+			"admin"						: "Admin",
+			"user"						: "User",
+			"active"					: "Status",
+			"plan_id"					: "Plan",
+			"details"					: "Details",
+			"date"						: "Registration date: %s",
+			"last_activity"				: "Last activity: %s",
+			"total_logins"				: "Total logins: %s",
+			"plan_expiration_date"		: "Plan expiration date",
+			"country_unknown"           : "Unknown country"
 		},
-		"submit"						: "Set password",
-		"success_message"				: "Your new password was set!"
+
+		"filters": {
+			"is_enabled"				: "Status",
+			"is_enabled_active"			: "Active",
+			"is_enabled_disabled"		: "Disabled",
+			"is_enabled_unconfirmed"	: "Unconfirmed",
+
+			"plan_id"					: "Plan",
+			"country"					: "Country",
+
+			"search_by_name"			: "Name",
+			"search_by_email"			: "Email",
+			"order_by_email"			: "Email",
+			"order_by_name"				: "Name",
+			"order_by_last_activity"	: "Last activity",
+			"order_by_date"				: "Registration date",
+			"order_by_total_logins"		: "Total logins"
+		},
+
+		"error_message": {
+			"self_delete"				: "You can't delete yourself!",
+			"name_length"				: "The name field must be between 3 and 32 characters!",
+			"email_exists"				: "This email is already used by another account!",
+			"invalid_email"				: "You entered an invalid email!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match!"
+		}
 	},
 
-	"resend_activation": {
-		"title"							: "Resend activation",
-		"header"						: "Resend activation email",
-		"subheader"						: "Mails can get lost, but we can send you another activation email for your account.",
-		"return"						: "Return to Login",
-		"email" 						: "Email",
-		"submit"						: "Send me the activation email",
-		"success_message"				: "We sent an email to you if there is an account registered with it!"
+	"admin_user_delete_modal": {
+		"header"						: "Delete User",
+		"subheader"						: "By deleting the user, everything that is linked to the user will be deleted. This action cannot be undone.",
+
+		"success_message"				: "User deletion was performed successfully!"
 	},
 
-	"activate_user": {
-		"user_activation"				: "Your account has been confirmed and is now active!",
-		"user_pending_email"			: "Your new email address has been confirmed!"
+	"admin_user_login_modal": {
+		"header"						: "Login as this user",
+		"subheader"						: "By logging in as another user, you will be logged out of the current account and fully logged in to this user.",
+
+		"success_message"				: "Successfully logged in as %s! To get out of this account simply use the logout function."
 	},
 
-	"register": {
-		"title"							: "注册",
-		"menu"							: "注册",
-		"header"						: "注册",
-		"login"							: "已经注册?",
+	"admin_user_create": {
+		"title"							: "Create user",
+		"header"						: "Create user",
+		"menu"							: "Create user",
 
 		"form": {
-			"name"						: "名称",
-			"name_placeholder"			: "您的全名",
-			"email"						: "邮箱",
-			"email_placeholder"			: "邮箱",
-			"password"					: "密码",
-			"password_placeholder"		: "密码",
-			"repeat_password"			: "重复密码",
-			"accept"					: "我确认我已阅读并理解本网站的%s和%s.",
-			"register"					: "注册"
+			"name"						: "Name",
+			"name_placeholder"			: "Full name",
+			"email"						: "Email",
+			"email_placeholder"			: "email@domain.com",
+			"password"					: "Password",
+			"password_placeholder"		: "Password",
+			"repeat_password"			: "Repeat Password"
 		},
-
-		"error_message": {
-			"username_length"			: "用户名必须在3-32字符之间!",
-			"name_length"				: "用户名必须在3-32字符之间!",
-			"email_exists"				: "这个邮箱已被使用!",
-			"invalid_email"				: "你输入了一个无效的电子邮箱!",
-			"short_password"			: "你输入的密码太短了,至少6字符!",
-			"passwords_not_matching"	: "密码不匹配",
-			"email_verifier_api"		: "不允许使用一次性的电子邮件地址!"
-		},
-
 
 		"success_message": {
-			"registration"				: "检查你的电子邮件,查看你账号的激活链接!",
-			"login"						: "欢迎来到我们的平台,我们很感谢你的到来!"
+			"created"					: "Account has been created!"
 		}
 	},
 
-	"dashboard": {
-		"breadcrumb"					: "面板",
-		"title"							: "面板",
-		"menu"							: "面板",
+	"admin_user_update": {
+		"title"							: "Edit User",
+		"header"						: "Edit User",
 
-		"basic": {
-			"no_data"					: "无数据..",
-			"no_data_help"				: "你安装了%s追踪代码%s吗?",
-
-			"chart": {
-				"pageviews"				: "浏览量",
-				"sessions"				: "会话数",
-				"visitors"				: "访客数"
-			}
+		"main": {
+			"header"					: "Main",
+			"subheader"					: "Profile details, status and permissions of the account.",
+			"username"					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"is_enabled"				: "Account Status",
+			"is_enabled_active"			: "Active",
+			"is_enabled_unconfirmed"	: "Unconfirmed",
+			"is_enabled_disabled"		: "Disabled",
+			"type"						: "User Privileges",
+			"type_help"					: "Admin users will have the same privileges as you, be careful!",
+			"type_admin"				: "Admin",
+			"type_user"					: "User"
 		},
 
-		"paths": {
-			"header"					: "页",
-			"path"						: "页"
+		"plan": {
+			"header"					: "Plan",
+			"subheader"					: "Change and update the plan of the user.",
+			"plan_id"			    	: "Current Plan",
+			"plan_expiration_date"   	: "Plan Expiration Date",
+			"plan_expiration_date_invalid"   	: "Keep in mind, this plan expiration date is in the past. You can still save it like this, though.",
+			"plan_trial_done"			: "Plan Trial Done"
 		},
 
-		"landing_paths": {
-			"header"					: "着陆页",
-			"path"						: "页面"
-		},
-
-		"exit_paths": {
-			"header"					: "退出页面",
-			"path"						: "页面"
-		},
-
-		"referrers": {
-			"header"					: "引用方",
-			"referrer_host"				: "域名",
-            "null"                      : "(无)直接"
-		},
-
-		"referrer_paths": {
-			"header"					: "引用路径",
-			"referrer_path"				: "路径",
-			"null"                      : "主页"
-		},
-
-		"social_media_referrers": {
-			"header"					: "社交媒体",
-			"referrer_host"				: "网站"
-		},
-
-		"search_engines_referrers": {
-			"header"					: "搜索引擎",
-			"referrer_host"				: "搜索引擎"
-		},
-
-		"countries": {
-			"header"					: "国家(地区)",
-			"country"					: "国家(地区)""
-		},
-
-		"cities": {
-			"header"					: "城市",
-			"city"						: "城市"
-		},
-
-		"utms": {
-			"header"					: "UTMs",
-			"utm"						: "UTM",
-			"utm_source"				: "Source",
-			"utm_medium"				: "Medium",
-			"utm_campaign"				: "Campaign",
-			"null"						: "None"
-		},
-
-		"screen_resolutions": {
-			"header"					: "屏幕分辨率",
-			"resolution"				: "分辨率"
-		},
-
-		"browser_languages": {
-			"header"					: "浏览器语言",
-			"language"					: "语言"
-		},
-
-		"operating_systems": {
-			"header"					: "操作系统",
-			"os_name"					: "OS"
-		},
-
-		"device_types": {
-			"header"					: "设备",
-			"device_type"				: "设备类型"
-		},
-
-		"browser_names": {
-			"header"					: "浏览器",
-			"browser"					: "浏览器"
-		},
-
-		"goals": {
-			"header"					: "目标",
-			"goal"						: "目标"
+		"change_password": {
+			"header"					: "Change Password",
+			"subheader"					: "Leave it empty if you don't want to change the user's password!",
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password"
 		}
 	},
 
-	"referrer_paths_modal": {
-		"header"						: "引用方路径",
-		"subheader"						: "下面是这个引用方下的所有路径."
-	},
+	"admin_user_view": {
+		"title"							: "View User",
+		"header"						: "View User",
 
-	"utms_medium_campaign_modal": {
-		"header"						: "UTMs",
-		"subheader"						: "Here are all the medium & campaign UTMs under this UTM source."
-	},
-
-	"cities_modal": {
-		"header"						: "城市",
-		"subheader"						: "这是这个国家(地区)下的所有城市."
-	},
-
-	"goal_create_modal": {
-		"header"						: "设置目标",
-		"subheader"						: "目标可以帮助你跟踪自定义事件，如点击按钮、提交表格等.",
-
-		"input": {
-			"type"						: "Goal trigger",
-			"type_pageview"				: "浏览量",
-			"type_custom"				: "自定义事件",
-			"name"						: "名称",
-			"path"						: "网页路径",
-			"path_placeholder"			: "thank-you",
-			"key"						: "Key",
-			"key_placeholder"			: "custom-identifier",
-			"code"						: "Javascript code",
-			"code_help"					: "通过这个javascript片段，你可以在你的网络应用中触发你的自定义事件."
+		"main": {
+			"ip"						: "IP",
+			"country"					: "Country",
+			"name"						: "Name",
+			"email"						: "Email",
+			"status"					: "Status",
+			"status_active"				: "Active",
+			"status_disabled"			: "Disabled",
+			"type"						: "Privileges",
+			"type_help"					: "Admin users will have the same privileges as you, be careful!",
+			"type_admin"				: "Admin",
+			"type_user"					: "User",
+			"last_activity"				: "Last active",
+			"last_user_agent"			: "Last User Agent",
+			"plan_trial_done"			: "Trial is done",
+			"plan"						: "Current Plan",
+			"plan_expiration_date"		: "Plan expiration date",
+			"total_logins"				: "Total logins",
+			"language"					: "Language",
+			"timezone"					: "Timezone"
 		},
 
-		"success_message"				: "目标成功创造!",
+		"websites"						: "Websites",
+		"email_reports"					: "Email reports",
+		"payments"						: "Payments",
+		"teams"							: "Teams",
+		"teams_associations"			: "Teams the user belongs to",
 
-		"error_message": {
-			"websites_goals_limit"   	: "你的计划不允许你再创建任何目标."
+		"logs": {
+			"header"					: "Account logs",
+			"subheader"					: "A recent list of the most important recorded activity.",
+			"type"						: "Type",
+			"ip"						: "IP",
+			"date"						: "Date"
 		}
 	},
 
-	"goal_update_modal": {
-		"header"						: "更新目标",
-		"subheader"						: "目标可以帮助你跟踪自定义事件，如点击按钮、提交表格等.",
-
-		"input": {
-			"type_pageview"				: "浏览量",
-			"type_custom"				: "自定义事件",
-			"name"						: "名称",
-			"path"						: "网页路径",
-			"path_placeholder"			: "thank-you",
-			"key"						: "Key",
-			"key_placeholder"			: "custom-identifier",
-			"code"						: "Javascript code",
-			"code_help"					: "通过这个javascript片段，你可以在你的网络应用中触发你的自定义事件."
-		},
-
-		"success_message"				: "目标成功更新!"
-	},
-
-	"goal_delete_modal": {
-		"success_message"				: "目标成功删除!"
-	},
-
-	"realtime": {
-		"title"							: "实时统计",
-		"menu"							: "实时统计",
-		"header"						: "实时统计 %s",
-		"subheader"						: "数据是基于网站最后5分钟的活动.",
-
-		"visitors"						: "网站上的活跃用户",
-		"pageviews"						: "最近的页面浏览量"
-	},
-
-	"visitors": {
-		"title"							: "访客",
-		"menu"							: "访客",
-		"breadcrumb"					: "访客",
-
-		"header": {
-			"header"					: "%s的访客",
-			"average_time_per_session"	: "Avg. time per session"
-		},
-
-		"basic": {
-			"no_data"					: "无可用数据..",
-			"no_data_help"				: "你安装%s追踪代码%s了吗?"
-		},
-
-		"visitor": {
-			"visitor"					: "访客",
-			"system"					: "系统",
-			"last_date"					: "最后操作",
-			"total_sessions"			: "%s 个会话",
-
-			"custom_parameters"			: "%s 自定义参数",
-			"since"						: "从"
-		}
-	},
-
-	"visitor": {
-		"title"							: "访客",
-		"breadcrumb"					: "访客",
-
-		"device_type": {
-			"desktop"					: "桌面",
-			"tablet"					: "平板",
-			"mobile"					: "手机"
-		},
-
-		"visitor": {
-			"custom_parameters"			: "自定义参数",
-			"total_sessions"			: "总会话数",
-			"date"						: "First session",
-			"last_date"					: "最后活跃",
-			"country"					: "国家(地区)",
-			"country_unknown"			: "未知",
-			"city"						: "城市",
-			"city_unknown"				: "未知",
-			"device_type"				: "设备",
-			"operating_system"			: "操作系统",
-			"browser"					: "浏览器",
-			"browser_language"			: "浏览器语言",
-			"screen_resolution"			: "屏幕分辨率",
-			"average_time_per_session"	: "每会话的评价访问时间"
-		},
-
-		"basic": {
-			"time_spent"				: "%s Duration",
-			"pageviews"					: "%s Pageviews",
-			"replays"					: "查看回放",
-			"no_data"					: "这些日期没有可用数据.."
-		}
-	},
-
-	"session_events_modal": {
-		"header"						: "会话事件",
-		"subheader"						: "这是本次会话中发生的所有事件."
-	},
-
-	"visitor_delete_modal": {
-		"header"						: "删除访客",
-		"subheader"						: "通过删除访客,该用户的所有浏览量和所有事件也将被删除.此操作无法撤消.",
-
-		"success_message"				: "访客成功删除!"
-	},
-
-	"heatmaps": {
-		"title"							: "热力图",
-		"menu"							: "热力图",
-		"header"						: "%s"的热力图,
-		"breadcrumb"					: "热力图",
-
-		"basic": {
-			"no_data"					: "未创建热力图..",
-			"no_data_help"				: "点击右上角的按钮添加一个."
-		},
-
-		"heatmap": {
-			"create"					: "创建热力图",
-			"retake_snapshots"			: "重新拍摄快照",
-			"heatmap"					: "创建热力图",
-			"is_enabled"				: "状态",
-			"is_enabled_true"			: "收集数据",
-			"is_enabled_false"			: "暂停",
-			"date"						: "创建于",
-			"snapshot_id_desktop"		: "拍摄的桌面快照",
-			"snapshot_id_desktop_null"  : "未拍摄桌面快照",
-			"snapshot_id_tablet"		: "拍摄的平板快照",
-			"snapshot_id_tablet_null"   : "未拍摄平板快照",
-			"snapshot_id_mobile"		: "拍摄的手机快照",
-			"snapshot_id_mobile_null"   : "未拍摄手机快照"
-		},
-
-		"error_message": {
-			"websites_heatmaps_limit"   : "你的计划不允许你再创建任何热力图."
-		}
-	},
-
-	"heatmap": {
-		"title"							: "热力图",
-		"menu"							: "热力图",
-		"header"						: "热力图",
-		"breadcrumb"					: "热力图",
-
-		"click"							: "%s 次点击",
-
-		"no_data"						: "我们仍在等待数据..",
-		"no_data_help"					: "页面的初始快照将来自打开热力图页面的第一个访问者.",
-
-		"error_message": {
-			"js"						: "We have detected some problem in replaying the session or some parts of it.."
-		}
-	},
-
-	"heatmap_create_modal": {
-		"header"							: "Create a new heatmap",
-		"subheader"							: "Track the flow of multiple people on the same page.",
-
-		"input": {
-			"name"							: "Name",
-			"path"							: "Heatmap Path",
-			"path_placeholder"				: "page-inside-your-website",
-			"path_help"						: "Specify the exact path of your website which you want to create this heatmap for."
-		},
-
-		"success_message"					: "The new heatmap is now created!"
-	},
-
-	"heatmap_update_modal": {
-		"header"							: "Update Heatmap",
-		"subheader"							: "Update an already existing heatmap.",
-
-		"input": {
-			"name"							: "Name",
-			"is_enabled"					: "Heatmap status",
-			"is_enabled_help"				: "Enable or disable collecting data on this heatmap."
-		},
-
-		"success_message"					: "The heatmap has been updated!"
-	},
-
-	"heatmap_retake_snapshots_modal": {
-		"header"							: "Retake snapshots",
-		"subheader"							: "Retaking snapshots can solve visual problems (if any) or simply reset the data that already exists for Desktop, Tablet or Mobile snapshots.",
-
-		"input": {
-			"snapshot_id_desktop"			: "Desktop snapshot",
-			"snapshot_id_tablet"			: "Tablet snapshot",
-			"snapshot_id_mobile"			: "Mobile snapshot"
-		},
-
-		"success_message"					: "The selected snapshots has been cleared!"
-	},
-
-	"heatmap_delete_modal": {
-		"header"						: "Delete heatmap",
-		"subheader"						: "All the snapshots and data related to this heatmap will be deleted. This action cannot be undone.",
-
-		"success_message"				: "Heatmap deletion was performed successfully!"
-	},
-
-	"replays": {
-		"title"							: "Replays",
-		"menu"							: "Replays",
-		"delete"						: "Delete replays",
-		"header"						: "Replays of %s",
-		"breadcrumb"					: "Replays",
-
-		"basic": {
-			"no_data"					: "No data available..",
-			"no_data_help"				: ""
-		},
-
-		"replay": {
-			"visitor"					: "Visitor",
-			"session"					: "Session",
-			"date"						: "Timing",
-
-			"time_spent"				: "%s Duration",
-			"first_date"				: "Starts at %s",
-			"last_date"					: "Ends at %s",
-			"events"					: "%s Events",
-			"since"						: "Since",
-			"sessions_replays"			: "Replay Session"
-		}
-	},
-
-	"replays_delete_modal": {
-		"header"						: "Delete selected replays",
-		"subheader"						: "All the replays from the selected date range and filters will be deleted. This action cannot be undone.",
-
-		"success_message"				: "Replays deletion was performed successfully!"
-	},
-
-	"replay": {
-		"title"							: "Replay",
-		"menu"							: "Replay",
-		"header"						: "Replay",
-		"breadcrumb"					: "Replay",
-
-		"events"						: "Tracked events",
-		"duration"						: "Replay duration",
-		"time_range"					: "Time start to end",
-
-		"error_message": {
-			"js"						: "We have detected some problem in replaying the session or some parts of it.."
-		}
-	},
-
-	"replay_events_modal": {
-		"header"						: "Replay Events",
-		"subheader"						: "Here are all the events that happened in this replay session."
-	},
-
-	"replay_delete_modal": {
-		"header"						: "Delete Replay",
-		"subheader"						: "By deleting the replay, all the all the events of this session replay will be deleted. This action cannot be undone.",
-
-		"success_message"				: "Replay deletion was performed successfully!"
-	},
-
-	"websites": {
-		"title"							: "Websites",
+	"admin_websites": {
+		"title"							: "Websites management",
+		"header"						: "Websites management",
 		"menu"							: "Websites",
 
-		"websites": {
-			"header"					: "Websites",
-			"subheader"					: "View and manage all your added websites.",
-			"create"					: "Add Website",
-
+		"table": {
+			"user"						: "User",
 			"website"					: "Website",
-			"usage"						: "Usage",
-			"sessions_events"			: "Pageviews",
-			"events_children"			: "Visitors Events",
-			"sessions_replays"			: "Replays",
-			"websites_heatmaps"			: "Heatmaps",
-			"websites_goals"			: "Goals",
-			"email_reports"				: "Email reports",
-			"is_enabled"				: "Tracking",
-			"pixel_key"					: "Tracking Code",
-			"tracking_type_normal"		: "Advanced mode",
-			"tracking_type_lightweight"	: "Lightweight mode",
-
-			"no_data"					: "Add your first website now",
-			"no_data_help"				: "Click on the top right button to add one."
+			"usage"						: "Usage this month",
+			"is_enabled"				: "Status",
+			"date"						: "Date"
 		},
 
 		"filters": {
@@ -1525,300 +611,441 @@
 			"order_by_host"				: "Domain"
 		},
 
-		"error_message": {
-			"websites_limit"			: "Your plan does not allow you to connect any more websites."
+		"display": {
+			"total_sessions_events"			: "Total pageviews",
+			"total_events_children"			: "Total tracked events",
+			"total_sessions_replays"		: "Total sessions replays"
 		}
 	},
 
-	"website_create_modal": {
-		"header"							: "Add New Website",
-		"subheader"							: "Easily add a new website that you want to track.",
+	"admin_website_delete_modal": {
+		"header"							: "Delete Website",
+		"subheader"							: "By deleting the website, everything that is sub linked to the website will be deleted. This action cannot be undone.",
 
-		"input": {
-			"name"							: "Name",
-			"host"							: "Website",
-			"host_placeholder"				: "domain.com",
-			"host_help"						: "Tracking will only work on the <strong>domain.com</strong>, <strong>sub.domain.com</strong> or <strong>domain.com/path</strong> that you specify.",
-			"tracking_type"					: "Tracking type",
-			"tracking_type_help"			: "The tracking type cannot be changed later on!",
-			"tracking_type_lightweight"		: "Lightweight",
-			"tracking_type_lightweight_help": "This type of tracking will not use any cookies, local storage or any identifiers for visitors, fully compliant with GDPR, CCPA and PECR right out of the box. No consent needed for this kind of tracking.",
-			"tracking_type_normal"			: "Advanced",
-			"tracking_type_normal_help"		: "This type of tracking will use local storage and random unique identifiers for each visitor to know when the user is coming back and to associate visits and other data to that particular visitor.",
-			"events_children_is_enabled"		: "Track Visitors Events",
-			"events_children_is_enabled_help"	: "Enable or disable tracking for mouse clicks, form submissions, resizes or scrolls.",
-			"sessions_replays_is_enabled"		: "Session Replays",
-			"sessions_replays_is_enabled_help"	: "Enable or disable visual session replays tracking. This is a more advanced tracking type compared to the normal option.",
-			"email_reports_help"				: "Get simple email reports with the latest stats of your website's activity."
+		"success_message"					: "Website deletion was performed successfully!"
+	},
+
+	"admin_settings": {
+		"title"							: "Website Settings",
+		"menu"							: "Website Settings",
+		"header"						: "Website Settings",
+		"documentation"					: "Read the <a href=\"https://altumco.de/66analytics-docs\" target=\"_blank\">Documentation</a> to get more details on certain available configurations.",
+
+		"tab": {
+			"main"						: "Main",
+			"payment"					: "Payment",
+			"affiliate"					: "Affiliate",
+			"business"					: "Business",
+			"analytics"					: "Analytics",
+			"facebook"					: "Facebook Login",
+			"captcha"					: "Captcha",
+			"ads"						: "Ads",
+			"socials"					: "Socials",
+			"smtp"						: "SMTP",
+			"custom"					: "Custom JS / CSS",
+			"announcements"             : "Announcements",
+			"email_notifications"		: "Email Notifications",
+			"webhooks"					: "Webhooks",
+			"offload"					: "Offload",
+			"cron"                      : "Cron",
+			"license"					: "License"
 		},
 
-		"success_message"					: "The new website is now created!"
-	},
-
-	"website_update_modal": {
-		"header"							: "Update Website",
-		"subheader"							: "Change an already existing website.",
-
-		"input": {
-			"name"							: "Name",
-			"host"							: "Website",
-			"host_placeholder"				: "domain.com",
-			"host_help"						: "Tracking will only work on the <strong>domain.com</strong>, <strong>sub.domain.com</strong> or <strong>domain.com/path</strong> that you specify.",
-			"events_children_is_enabled"		: "Track Visitors Events",
-			"events_children_is_enabled_help"	: "Enable or disable tracking for mouse clicks, form submissions, resizes or scrolls.",
-			"sessions_replays_is_enabled"		: "Session Replays",
-			"sessions_replays_is_enabled_help"	: "Enable or disable visual session replays tracking. This is a more advanced tracking type compared to the normal option.",
-			"is_enabled"					: "Tracking Status",
-			"is_enabled_help"				: "Fully enable or disable tracking of the website.",
-			"email_reports_help"			: "Get simple email reports with the latest stats of your website's activity.",
-			"excluded_ips"					: "Excluded IPs",
-			"excluded_ips_help"				: "Exclude IPs from being tracked. Separated by commas."
+		"main": {
+			"title"						: "Website title",
+			"default_language"			: "Default language",
+			"default_language_help"		: "To add more languages, please consult the documentation.",
+			"default_theme_style"		: "Default theme style",
+			"logo"						: "Logo",
+			"logo_help"					: "jpg, jpeg, png, gif, or svg accepted. Recommended size: Max height of 40px and transparent.",
+			"logo_remove"				: "Remove logo",
+			"favicon"					: "Favicon",
+			"favicon_help"				: "png, gif or ico accepted.",
+			"favicon_remove"			: "Remove favicon",
+			"opengraph"					: "Opengraph image",
+			"opengraph_help"			: "jpg, jpeg, png or gif accepted.",
+			"opengraph_remove"			: "Remove favicon",
+			"email_confirmation"		: "Email confirmation",
+			"email_confirmation_help"	: "Send out email confirmation when a user registers or changes his email address.",
+			"register_is_enabled"		: "Enable new users registration",
+			"register_is_enabled_help"	: "Allow people to register on your platform or completely disable the register page.",
+			"default_timezone"			: "Default timezone",
+			"default_timezone_help"		: "The default timezone for users when they are registering (they can change it later on).",
+			"index_url"					: "Custom landing page URL",
+			"index_url_help"			: "Set the full custom index url ( ex: https://google.com/ ) if you want to completely disable the default landing page of the product. Helpful when you want to have your own landing page. Leave empty to disable.",
+			"terms_and_conditions_url"		: "Terms and Conditions URL",
+			"terms_and_conditions_url_help"	: "Link to the terms and conditions of the website. Can be a link created with the Pages creator from the sidebar.",
+			"privacy_policy_url"			: "Privacy Policy URL",
+			"privacy_policy_url_help"		: "Link to the privacy policy of the website. Can be a link created with the Pages creator from the sidebar."
 		},
 
-		"success_message"				: "The website has been updated!"
-	},
+		"payment": {
+			"is_enabled"				: "Enable Payments System",
+			"is_enabled_help"			: "Disabling the payment system will remove all the options for the users to upgrade their accounts or see any payment related information.",
+			"type"						: "Enabled payment types",
+			"type_help"					: "",
+			"type_one_time"				: "One Time",
+			"type_recurring"			: "Recurring",
+			"type_both"					: "Both",
+			"brand_name"				: "Brand Name",
+			"brand_name_help"			: "The brand name will be used for displaying the brand when users purchase via payment gates. (ex: paypal)",
+			"currency"					: "Currency",
+			"currency_help"				: "Currency Code for the payments (ex: USD).",
+			"codes_is_enabled" 			: "Enable Discount/Redeemable Codes",
+			"codes_is_enabled_help" 	: "Enabling the discount codes system will enable users to add a discount code created from the admin panel, before they checkout.",
+			"taxes_and_billing_is_enabled"		: "Enable Taxes & Billing system",
+			"taxes_and_billing_is_enabled_help"	: "Enabling this feature will require users to fill in their Billing info before checking out and you will also be able to create taxes for each created plan.",
 
-	"website_pixel_key_modal": {
-		"install": {
-			"header"					: "Install Pixel",
-			"subheader"					: "Copy and paste the following JS Code Snippet before the end of the <code>&lt;/head&gt;</code> of your website.",
-			"copy"						: "Copy Pixel",
-			"copied"					: "Copied!"
+			"paypal"					: "Paypal Settings",
+			"paypal_is_enabled"			: "Enable Paypal payments",
+			"paypal_mode"				: "Mode",
+			"paypal_mode_help"			: "live - production, sandbox - testing purposes",
+			"paypal_client_id"			: "Client Id",
+			"paypal_secret"				: "Secret",
+
+			"stripe"					: "Stripe Settings",
+			"stripe_is_enabled"			: "Enable Stripe payments",
+			"stripe_publishable_key"	: "Publishable Key",
+			"stripe_secret_key"			: "Secret Key",
+			"stripe_webhook_secret"		: "Webhook Secret",
+
+			"offline_payment"			: "Offline payments",
+			"offline_payment_is_enabled": "Enable offline payments",
+			"offline_payment_instructions"		: "Instructions",
+			"offline_payment_instructions_help"	: "Payment instructions for the user to see, before submitting the payment."
 		},
 
-		"verify": {
-			"header"					: "Verify installation",
-			"subheader"					: "Click on the Verify button. You should see an alert box saying that it was installed, if not, then you must try again or double-check.",
-			"verify"					: "Verify"
-		}
-	},
-
-	"website_delete_modal": {
-		"header"						: "Delete Website",
-		"subheader"						: "All data related to the website will be completely deleted. This action cannot be undone.",
-
-		"success_message"				: "Website deletion was performed successfully!"
-	},
-
-	"teams": {
-		"title"							: "Teams",
-		"menu"							: "Teams",
-		"breadcrumb"					: "Teams",
-		"header"						: "Teams",
-		"subheader"						: "Create, invite or get invited to other people's teams.",
-
-		"teams": {
-			"header"					: "My teams",
-			"create"					: "Create team",
-
-			"team"						: "Team",
-			"websites_ids"				: "Websites",
-			"users"						: "Members",
-
-			"no_data"					: "Add your first team and invite people",
-			"no_data_help"				: "Click on the top right button to add one."
+		"affiliate" : {
+			"is_enabled"				: "Enable the affiliate system",
+			"is_enabled_help"			: "The affiliate system will enable your users to get paid for bringing other paying users to your platform.",
+			"commission_type"			: "Commission type",
+			"commission_type_once"		: "Once - give out commission for the first payment of a referred user",
+			"commission_type_forever"	: "Forever - give out commission for all the payments of a referred user",
+			"minimum_withdrawal_amount"	: "Minimum withdrawal amount",
+			"minimum_withdrawal_amount_help"	: "How much does a user need to have in his balance until he can request a withdrawal.",
+			"commission_percentage"		: "Commission percentage",
+			"commission_percentage_help": "Mow much does a user make for a referred user payment.",
+			"withdrawal_notes"			: "Withdrawal request notes",
+			"withdrawal_notes_help"		: "Inform your users about the withdrawal process. You can request them to write in their bank account or Paypal email for example."
 		},
 
-		"teams_associations": {
-			"header"					: "Teams you belong to",
-			"subheader"					: "",
-
-			"team"						: "Team",
-			"websites_ids"				: "Websites",
-			"is_accepted"				: "State",
-			"is_accepted_invited"		: "Invited",
-			"accepted_date"				: "Joined",
-			"accept"					: "Accept",
-			"decline"					: "Decline",
-			"login"						: "Login",
-			"delete"					: "Leave Team",
-
-			"no_data"					: "You do not belong to any team :(",
-			"no_data_help"				: ""
-		}
-	},
-
-	"team_create_modal": {
-		"header"						: "Create a new team",
-		"subheader"						: "Share access with your members.",
-
-		"input": {
+		"business": {
+			"header"					: "Business Details",
+			"subheader"					: "These details will be used when generating invoices for the user.",
+			"invoice_is_enabled"		: "Enable Invoices System",
+			"invoice_is_enabled_help"	: "This option will determine if users will be able to see invoices for their payments or not.",
+			"invoice_nr_prefix"			: "Invoice Nr Prefix",
+			"invoice_nr_prefix_help"	: "Your Nr Prefix for all the invoices generated on the system. Ex: INV-",
 			"name"						: "Name",
-			"websites_ids"				: "Access to websites",
-			"websites_ids_help"			: "Which websites you want to share access to."
+			"address"					: "Address",
+			"city"						: "City",
+			"county"					: "County",
+			"zip"						: "ZIP",
+			"country"					: "Country",
+			"email"						: "Email",
+			"phone"						: "Phone",
+			"tax_type"					: "Tax Type",
+			"tax_type_placeholder"		: "ex: VAT",
+			"tax_id"					: "Tax ID",
+			"custom_key_one"			: "Custom Field Name",
+			"custom_value_one"			: "Custom Field Value",
+			"custom_key_two"			: "Custom Field Name",
+			"custom_value_two"			: "Custom Field Value"
 		},
-
-		"success_message"				: "The new team is now created!"
-	},
-
-	"team_update_modal": {
-		"header"						: "Update team",
-		"subheader"						: "Change settings of an already existing team.",
-
-		"input": {
-			"name"						: "Name",
-			"websites_ids"				: "Access to websites",
-			"websites_ids_help"			: "Which websites you want to share access to."
-		},
-
-		"success_message"				: "The team has been updated!"
-	},
-
-	"team_delete_modal": {
-		"header"						: "Delete Team",
-		"subheader"						: "All the team members and access to the websites of this team will be deleted. This action cannot be undone.",
-
-		"success_message"				: "Team deletion was performed successfully!"
-	},
-
-	"team": {
-		"title"							: "%s Team",
-		"menu"							: "Teams",
-		"breadcrumb"					: "Team",
-
-		"team": {
-			"header"					: "%s Team",
-			"subheader"					: "View and manage the team. Created on %s."
-		},
-
-		"teams_associations": {
-			"header"					: "Members",
-			"subheader"					: "View and manage team members.",
-			"create"					: "Add member",
-
-			"user"						: "User",
-			"date"						: "Invited on",
-			"is_accepted"				: "State",
-			"is_accepted_invited"		: "Invited",
-			"accepted_date"				: "Joined",
-
-			"no_data"					: "Add your first team member",
-			"no_data_help"				: "Click on the top right button to invite."
-		}
-	},
-
-	"team_association_delete_modal": {
-		"header"						: "Remove user access",
-		"subheader"						: "Remove all the access the user has for this team. This action cannot be undone.",
-
-		"header2"						: "Remove your access",
-		"subheader2"					: "Remove your membership from this team. This action cannot be undone.",
-
-		"success_message"				: "Team association deletion was performed successfully!"
-	},
-
-	"team_association_create_modal": {
-		"header"						: "Add a new member",
-		"subheader"						: "Share access with your members.",
-
-		"input": {
-			"email"						: "邮箱"
-		},
-
-		"success_message"				: "An invitation to that email was just sent!",
-
-		"error_message": {
-			"email_exists"				: "This email is already associated with this team!",
-			"invalid_email"				: "You entered an invalid email!"
-		}
-	},
-
-	"index": {
-		"title"							: "用户会话分析",
-		"meta_description"				: "",
-		"meta_keywords"					: "",
-		"header"						: "All-in-one web analytics.",
-		"subheader"						: "Easy and friendly analytics. Track your users journey, replay sessions, collect heatmaps & more.",
-		"sign_up"						: "Get started",
-		"breadcrumb"					: "Home",
 
 		"analytics": {
-			"name"						: "分析",
-			"header"					: "Good & good looking analytics",
-			"subheader"					: "Have you ever felt like you have too much information in front of you and don't know what it means? We are providing you a clean and simple interface with easy to understand analytics."
+			"sessions_replays_is_enabled"		: "Enable Sessions Replays (BETA)",
+			"sessions_replays_is_enabled_help"	: "Sessions Replays is a more advanced tracking system which tries to track almost everything a user does on a page and visually replay that session to the owner of the site.",
+			"sessions_replays_is_enabled_help2"	: "This feature can be activated but must be carefully used as it may still contain bugs.",
+			"sessions_replays_is_enabled_help3"	: "In certain cases, if the website that is tracked is large and your webhost doesn't allow to post a big amount of data then it could not work properly. Your current POST_MAX_SIZE is: %s.",
+
+			"sessions_replays_minimum_duration"	: "Minimum duration of a session replay (in seconds)",
+			"sessions_replays_minimum_duration_help" 	: "The Cronjob will automatically delete all the sessions replays which do not meet the required duration.",
+			"sessions_replays_minimum_duration_help2" 	: "The cron will only delete the replays after 24 hours of user inactivity to make sure the session is not active anymore.",
+
+			"websites_heatmaps_is_enabled"			: "Enable Heatmaps (BETA)",
+			"websites_heatmaps_is_enabled_help"		: "Heatmaps give the user the ability to track specific pages and look for the most used parts of those pages based on data from multiple people.",
+
+			"pixel_cache"				: "Pixel Cache (in seconds)",
+			"pixel_cache_help"			: "Set 0 to disable the cache of the pixel tracking code.",
+
+			"pixel_exposed_identifier"			: "Pixel exposed identifier",
+			"pixel_exposed_identifier_help"		: "The pixel key is used when telling your users how to customly use your tracking code. An example would be for tracking their goals: <code><strong>your_pixel_exposed_identifier</strong>.goal('my-goal');</code>.",
+
+			"email_reports_is_enabled"			: "Email Reports system for analytics",
+			"email_reports_is_enabled_weekly"	: "Weekly",
+			"email_reports_is_enabled_monthly"	: "Monthly",
+			"email_reports_is_enabled_help"		: "Enabling the email reports will give your users the ability to get email reports of their website statistics. Make sure to have a proper email sending configuration via the SMTP tab."
 		},
 
-		"visitor_behaviour": {
-			"name"						: "访客行为",
-			"header"					: "Understand your users",
-			"subheader"					: "Understanding your users is key to learning how to improve your website. Check each visitors path and what they are doing on your site without intruding they're privacy."
+		"captcha": {
+			"type"						: "Captcha type",
+			"type_basic"				: "Basic captcha",
+			"type_recaptcha"			: "Google ReCaptcha v2 checkbox",
+			"type_hcaptcha"				: "hCaptcha",
+			"recaptcha_public_key"		: "ReCaptcha Public Key",
+			"recaptcha_private_key"		: "ReCaptcha Private Key",
+			"hcaptcha_site_key"			: "hCaptcha Site Key",
+			"hcaptcha_secret_key"		: "hCaptcha Secret Key",
+			"login_is_enabled"			: "Enable captcha on the login page",
+			"register_is_enabled"		: "Enable captcha on the register page",
+			"lost_password_is_enabled"	: "Enable captcha on the lost password page",
+			"resend_activation_is_enabled"	: "Enable captcha on the resend activation page"
 		},
 
-		"realtime_data": {
-			"name"						: "实时统计",
-			"header"					: "Realtime visitor analytics",
-			"subheader"					: "Curious to see realtime data? You can check and how many users are online, which devices are the most popular and what pages are most accessed."
+		"facebook": {
+			"is_enabled"				: "Enable Facebook Login",
+			"app_id"					: "App Id",
+			"app_secret"				: "App Secret"
 		},
 
-		"privacy": {
-			"name"						: "隐私",
-			"header"					: "We never sell your data, you own it!",
-			"subheader"					: "Why would you get a service like this compared when Google analytics is available? Because your data matters, we never sell your data and you are in full control of it. You can delete it at any time!"
+		"ads": {
+			"ads_help"					: "These fields accept text, html or javascript.",
+
+			"header"					: "Header",
+			"footer"					: "Footer"
 		},
 
-		"session_recording": {
-			"name"						: "会话记录",
-			"header"					: "Record & replay visitors sessions",
-			"subheader"					: "This is simply the best way to see a visitors journey throughout your website. What they click, where they're going and what they like and do not understand. You can easily replay their sessions and see exactly what they did."
+		"socials": {
+			"socials_help"				: "Social links to be displayed in the footer of the website. Enter only the id / name of the page"
 		},
 
-		"heatmaps": {
-			"name"						: "热力图",
-			"header"					: "热力图追踪",
-			"subheader"					: "热力图是一项非常易于使用的功能,可用于测试您网站上的页面并了解您网站上的一组用户最常使用哪些部分."
+		"smtp": {
+			"host"						: "Host",
+			"host_help"					: "If there are no values entered in this field then the system will try to use the default mail function.",
+			"from"						: "From email",
+			"from_help"					: "The email that the users get the email from / the 'reply-to' email.",
+			"from_name"					: "From name",
+			"from_name_help"			: "The name associated with the email below.",
+			"encryption"				: "Encryption",
+			"port"						: "Port",
+			"auth"						: "Authentication",
+			"username"					: "Username",
+			"password"					: "Password"
 		},
 
-		"testimonials": {
-			"header"					: "人们在说什么",
-			"subheader"					: "使用过我们产品的人的感言.",
+		"custom": {
+			"head_js"                   : "Head Javascript",
+			"head_js_help"              : "Add your own tracking js code ( ex: Google Analytics ).",
+			"head_css"                  : "Custom CSS",
+			"head_css_help"             : "Add custom CSS in case you want to overwrite certain styles of the website."
+		},
 
-			"t1": {
-				"image"					: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=144&h=144&q=80",
-				"text"					: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus vestibulum porta. Sed id eros quam. Nunc at nisi vel arcu placerat gravida. Proin lacinia ipsum porttitor, sollicitudin est in, ornare ex. Vivamus eu ex non orci condimentum placerat ac ac nisi. Nam velit libero, hendrerit vitae auctor eget, congue ut ante.",
-				"name"					: "George",
-				"attribute"				: "Founder of X Machine"
+		"announcements": {
+			"content"                   : "Announcement content",
+			"content_help"				: "This field accepts text, html or javascript. Leave empty to disable.",
+			"text_color"                : "Text color",
+			"background_color"          : "Background color",
+			"show_logged_in"            : "Display for logged in users",
+			"show_logged_out"           : "Display for guests"
+		},
+
+		"email_notifications": {
+			"emails"					: "Emails to be notified",
+			"emails_help"				: "Emails that will receive a notification when one of the actions from below are performed. Add valid email addresses separated by a comma.",
+			"new_user"					: "New User",
+			"new_user_help"				: "Receive an email when a new users registers to the website.",
+			"new_payment"				: "New Payment",
+			"new_payment_help"			: "Receive an email when a new payment is successfully processed.",
+			"new_affiliate_withdrawal"				: "New affiliate withdrawal",
+			"new_affiliate_withdrawal_help"			: "Receive an email when a new affiliate withdrawal request is submitted."
+		},
+
+		"offload": {
+			"assets_url"				: "Assets URL",
+			"assets_url_help"			: "Full URL to the assets folder from any storage provider, such as: Amazon S3, DigitalOcean Spaces.",
+			"provider"                  : "Storage provider",
+			"uploads_url"				: "Uploads URL",
+			"uploads_url_help"			: "Full URL to the uploads folder from any storage provider, such as: Amazon S3, DigitalOcean Spaces.",
+			"endpoint_url"              : "Endpoint URL",
+			"access_key"                : "Access key",
+			"secret_access_key"         : "Secret access key",
+			"storage_name"              : "Bucket name",
+			"region"                    : "Region"
+		},
+
+		"webhooks": {
+			"user_new"					: "New users event - webhook URL",
+			"user_new_help"				: "Send a webhook with the <code>user_id</code>, <code>email</code>, <code>name</code> details when a new user successfully registers to the site.",
+			"user_delete"				: "User deletion event - webhook URL",
+			"user_delete_help"			: "Send a webhook with the <code>user_id</code>, <code>email</code>, <code>name</code> details when a user is deleted from the site."
+		},
+
+        "cron": {
+			"cron"						: "Cron job",
+			"last_execution"            : "Last executed %s"
+		},
+
+		"license": {
+			"license"					: "License / Purchase Code",
+			"license_help"				: "The license you got from purchasing the product.",
+			"type"						: "License Type",
+			"new_license"				: "New License",
+			"new_license_help"			: "Leave empty if you don't want to change it. Useful when changing your license or upgrading to a new one (ex: from Regular License to Extended )"
+		},
+
+
+		"button": {
+			"test_email"				: "Test Email Settings",
+			"test_email_help"			: "It will send an email to the value from the <strong>From</strong> field that you set above. Make sure to first save the settings!"
+		},
+
+		"success_message": {
+			"saved"						: "Website settings have been saved!",
+			"email"						: "The test email has been sent successfully!"
+		},
+
+		"error_message": {
+			"email"						: "Test email failed: %s"
+		}
+
+	},
+
+	"admin_plugins": {
+		"title"							: "Plugins",
+		"menu"							: "Plugins",
+		"header"						: "Plugins",
+		"header_no_data"				: "No plugins available",
+		"subheader_no_data"				: "There are no plugins available for now :(.",
+		"no_access"                     : "You must own, install & activate the '%s' plugin to use this feature.",
+
+		"install"                       : "Install",
+		"uninstall"                     : "Uninstall",
+		"activate"                      : "Activate",
+		"disable"                       : "Disable",
+		"status_inexistent"             : "Get plugin",
+		"status_uninstalled"            : "Uninstalled",
+		"status_active"                 : "Active",
+		"status_disabled"               : "Disabled",
+
+		"table": {
+			"plugin"					: "Plugin",
+			"author"					: "Author",
+			"status"					: "Status"
+		}
+	},
+
+	"admin_plugin_uninstall_modal": {
+		"header"						: "Uninstall plugin",
+		"subheader"						: "By uninstalling the plugin, all the potential data related to the plugin will be removed from the system.",
+
+		"success_message"				: "Domain deletion was performed successfully!"
+	},
+
+	"admin_plugin_delete_modal": {
+		"header"						: "Delete plugin",
+		"subheader"						: "To delete the plugin, simply go into the <strong>plugins</strong> folder and delete the plugin."
+	},
+
+	"admin_statistics": {
+		"title"							: "Website Statistics",
+		"menu"							: "Statistics",
+		"header"						: "Statistics",
+		"subheader"						: "See how your website evolves throughout time.",
+
+		"payments": {
+			"menu"						: "Payments",
+			"header"					: "Sales",
+			"subheader"					: "This website has generated %s %s revenue on %s sales.",
+			"no_payments"				: "There are no recorded payments for this date range.",
+			"chart_total_payments"		: "Total sales",
+			"chart_total_amount"		: "Total earned"
+		},
+
+		"growth": {
+			"menu"						: "Growth",
+
+			"users": {
+				"header"				: "New registered users",
+				"chart"					: "Users"
 			},
 
-			"t2": {
-				"image"					: "https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=144&h=144&q=80",
-				"text"					: "Praesent finibus vestibulum porta. Sed id eros quam. Proin lacinia ipsum porttitor, sollicitudin est in, ornare ex. Vivamus eu ex non orci condimentum placerat ac ac nisi. Nam velit libero, hendrerit vitae auctor eget, congue ut ante.",
-				"name"					: "Calvin",
-				"attribute"				: "Owner X Website"
+			"users_logs": {
+				"header"				: "Active users",
+				"chart"					: "Active users"
 			},
 
-			"t3": {
-				"image"					: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=144&h=144&q=80",
-				"text"					: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ornare ex. Vivamus eu ex non orci condimentum placerat ac ac nisi. Nam velit libero, hendrerit vitae auctor eget, congue ut ante.",
-				"name"					: "Andrea",
-				"attribute"				: "Writter at X Magazine"
+			"redeemed_codes": {
+				"header"				: "Redeemed codes",
+				"chart"					: "Codes"
 			}
 		},
 
-		"pricing": {
-			"header"					: "选择适合你的计划.",
-			"subheader"					: "根据您的需求选择并获得您的计划."
+		"websites": {
+			"menu"						: "Websites",
+			"header"					: "Websites",
+			"chart"						: "New websites"
+		},
+
+		"lightweight_events": {
+			"menu"						: "Lightweight pageviews",
+			"header"					: "Lightweight pageviews",
+			"chart"						: "Lightweight pageviews"
+		},
+
+		"sessions_events": {
+			"menu"						: "Pageviews",
+			"header"					: "Pageviews",
+			"chart"						: "Pageviews"
+		},
+
+		"events_children": {
+			"menu"						: "Visitors events",
+			"header"					: "Visitors events",
+			"chart_click"				: "Clicks",
+			"chart_form"				: "Form submissions",
+			"chart_scroll"				: "Scroll Events",
+			"chart_resize"				: "Window resize events"
+		},
+
+		"sessions_replays": {
+			"menu"						: "Sessions replays",
+			"header"					: "Sessions replays",
+			"chart"						: "Sessions replays"
+		},
+
+		"websites_heatmaps": {
+			"menu"						: "Heatmaps",
+			"header"					: "Heatmaps",
+			"chart"						: "Heatmaps"
+		},
+
+		"websites_goals": {
+			"menu"						: "Goals",
+			"header"					: "Goals",
+			"chart"						: "Goals"
+		},
+
+		"goals_conversions": {
+			"menu"						: "Goals conversions",
+			"header"					: "Goals conversions",
+			"chart"						: "Goals conversions"
+		},
+
+		"teams": {
+			"menu"						: "Teams",
+			"header"					: "Teams",
+			"chart"						: "New teams"
+		},
+
+		"email_reports": {
+			"menu"						: "Email reports",
+			"header"					: "Email Reports",
+			"subheader"					: "How many email reports are sent out per day to your users.",
+			"chart"						: "Email reports"
 		}
 	},
 
-	"api": {
-		"error_message": {
-			"no_bearer"					: "The request is missing the Bearer Authentication header.",
-			"no_access"					: "You do not have access to the API.",
-			"rate_limit"				: "You reached the limit of requests in one minute, please wait.",
-			"not_found"					: "The resource you are looking for does not exist."
-		}
-	},
-
-	"api_documentation": {
-		"breadcrumb"					: "API Documentation",
-		"title"							: "API Documentation",
-		"header"						: "API Documentation",
-		"subheader"						: "This is the documentation for the available API endpoints, which are built around the <strong>REST architecture</strong>. All the API endpoints will return a <strong>JSON response</strong> with the standard <strong>HTTP response codes</strong> and need a <strong>Bearer Authentication via an API Key</strong>.",
+	"admin_api_documentation": {
+		"menu"							: "API docs",
+		"title"							: "Admin API documentation",
+		"header"						: "Admin API documentation",
+		"subheader"						: "This is the documentation for the available API endpoints, only for the admins, which are built around the <strong>REST architecture</strong>. All the API endpoints will return a <strong>JSON response</strong> with the standard <strong>HTTP response codes</strong> and need a <strong>Bearer Authentication via an API Key</strong>.",
 
 		"endpoint"						: "Endpoint",
 		"example"						: "Example",
 		"response"						: "Response example",
-		"api_key"						: "Get API Key",
+		"api_key"						: "API Key",
 		"base_url"						: "Base URL",
 		"parameters"					: "Parameters",
 		"required"						: "Required",
@@ -1833,107 +1060,40 @@
 
 		"filters": {
 			"page"                      : "The page number that you want results from. Defaults to <code>1</code>.",
-			"results_per_page"          : "How many results you want per page. Allowed values are: %s. Defaults to <code>%s</code>.",
+			"results_per_page"          : "How many results you want per page. Allowed values are: %s.",
 			"search"                    : "The search string.",
 			"search_by"                 : "What field are you searching by. Allowed values are: %s.",
 			"order_by"                  : "What field to order the results by. Allowed values are: %s.",
 			"order_by_type"             : "The ordering of the results. Allowed values are: <code>ASC</code> for ascending ordering, and <code>DESC</code> for descending ordering."
 		},
 
-		"user": {
-			"header"					: "User",
-			"read_header"				: "Retrieve user"
+		"users": {
+			"header"					: "Users",
+			"read_all_header"           : "Retrieve list",
+			"read_header"               : "Retrieve a user",
+			"create_header"             : "Create a new user",
+			"update": {
+				"header"				: "Update a user",
+				"is_enabled"			: "0 - Disabled, 1 - Active, 2 - Banned",
+				"type"					: "0 - Normal user, 1 - Admin",
+				"plan_id"				: "free, trial or an integer plan_id",
+				"plan_expiration_date"	: "Y-m-d H:i:s format in UTC timezone",
+				"plan_trial_done"		: "0 - No, 1 - Yes"
+			},
+			"delete_header"             : "Delete a user",
+			"one_time_login_code_header": "Generate a one time login code"
 		},
 
-		"statistics": {
-			"header"					: "网站统计",
-			"read_header"				: "检索网站统计信息",
-			"start_date"				: "Start date in <code>Y-m-d</code> format.",
-			"end_date"					: "End date in <code>Y-m-d</code> format.",
-			"type"						: "要返回的数据类型,允许的值为: <code>overview</code>, <code>paths</code>, <code>referrers</code>, <code>referrer_paths</code>, <code>countries</code>, <code>cities</code>, <code>operating_systems</code>, <code>device_types</code>, <code>browser_names</code>, <code>utms_source</code>, <code>utms_medium_campaign</code>, <code>screen_resolutions</code>, <code>browser_languages</code>, <code>goals</code>. Defaults to <code>overview</code>.",
-			"country_code"				: "Parameter only available for the <code>cities</code> type.",
-			"utm_source"				: "Parameter only available for the <code>utms_medium_campaign</code> type."
-		},
-
-		"websites": {
-			"header"					: "网站",
-			"read_all_header"			: "检索网站",
-			"read_header"				: "检索网站",
-			"create_header"				: "添加网站",
-			"update_header"				: "更新网站",
-			"delete_header"				: "删除网站",
-
-			"scheme"					: "Allowed values are: <code>http://</code> and <code>https://</code>.",
-			"host"						: "Website Host & Path. Example: <code>https://example.com/path</code>.",
-			"tracking_type"				: "Allowed values are: <code>lightweight</code> and <code>normal<code>.",
-			"excluded_ips"				: "Exclude IPs from tracking. Enter comma separated values.",
-			"events_children_is_enabled": "Track visitor events (mouse clicks, resizes, scrolls, form submissions). Allowed values are: <code>0</code> or <code>1</code>. Only available for <code>normal</code> tracking type.",
-			"sessions_replays_is_enabled": "Session replays. Allowed values are: <code>0</code> or <code>1</code>. Only available for <code>normal</code> tracking type.",
-			"email_reports_is_enabled"	: "Email reports. Allowed values are: <code>0</code> or <code>1</code>.",
-			"is_enabled"				: "Website tracking status. Allowed values are: <code>0</code> or <code>1</code>."
-		},
-
-		"payments": {
-			"header"					: "Payments",
-			"read_all_header"			: "Retrieve payments",
-			"read_header"				: "Retrieve a payment"
-		},
-
-		"users_logs": {
-			"header"					: "Logs",
-			"read_all_header"			: "Retrieve logs"
+		"plans": {
+			"header"					: "Plans",
+			"read_all_header"           : "Retrieve list",
+			"read_header"               : "Retrieve a plan"
 		}
 	},
 
-	"affiliate": {
-		"breadcrumb"					: "Affiliate",
-		"title"							: "Affiliate",
-		"menu"							: "Affiliate",
-		"header"						: "The affiliates program",
-		"subheader"						: "Easiest way to earn commission from people that you bring to the platform.",
-
-		"commission_percentage": {
-			"header"					: "%s commission",
-			"subheader_once"			: "Earn commission from the first payment of any user that you bring to the platform.",
-			"subheader_forever"			: "Earn commission from all of the payments of any user that you bring to the platform."
-		},
-
-		"minimum_withdrawal_amount": {
-			"header"					: "%s minimum withdrawal",
-			"subheader"					: "Once your approved balance reaches the minimum withdrawal amount, you can request a withdrawal."
-		},
-
-		"how": {
-			"header"					: "How does it work?",
-			"one"						: "Sign up",
-			"one_help"					: "Simply register for an account on our platform.",
-			"two"						: "Share your link",
-			"two_help"					: "Start promoting your referral link and bring new users.",
-			"three"						: "Start earning",
-			"three_help"				: "Once your referred users start paying, you'll get paid as well.",
-			"four"						: "Withdraw your money",
-			"four_help"					: "Request a withdrawal and you'll get paid."
-		},
-
-		"cta": {
-			"header"					: "Start earning money 💰",
-			"subheader"					: "Create an account and start in just a few minutes.",
-			"register"					: "Sign up"
-		}
-	},
-
-	"notfound": {
-		"title"							: "未找到",
-		"header"						: "404 Not Found",
-		"subheader"						: "没有找到您要找的页面."
-	},
-
-	"cron": {
-		"email_reports": {
-			"title"						: "Summary analytics for %s between %s and %s",
-			"p1"						: "Here is a short analytics overview of what happened on the %s website.",
-			"button"					: "Go to my dashboard",
-			"notice"					: "You are getting these emails because you have enabled email reports in your %sWebsite Settings%s page."
-		}
+	"admin_bulk_delete_modal": {
+		"header"						: "Delete in bulk",
+		"subheader"						: "You've selected multiple entries to be deleted, this may take a while & it action cannot be undone.",
+		"success_message"				: "The bulk deletion process was performed successfully!"
 	}
 }
