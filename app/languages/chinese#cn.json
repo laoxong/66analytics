@@ -1210,7 +1210,7 @@
 
 		"input": {
 			"type"						: "Goal trigger",
-			"type_pageview"				: "浏览量",
+			"type_pageview"				: "路径",
 			"type_custom"				: "自定义事件",
 			"name"						: "名称",
 			"path"						: "网页路径",
