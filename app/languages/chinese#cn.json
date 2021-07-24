@@ -1217,7 +1217,7 @@
 			"path_placeholder"			: "thank-you",
 			"key"						: "Key",
 			"key_placeholder"			: "custom-identifier",
-			"code"						: "Javascript code",
+			"code"						: "Javascript代码",
 			"code_help"					: "通过这个javascript片段，你可以在你的网络应用中触发你的自定义事件."
 		},
 
@@ -1240,7 +1240,7 @@
 			"path_placeholder"			: "thank-you",
 			"key"						: "Key",
 			"key_placeholder"			: "custom-identifier",
-			"code"						: "Javascript code",
+			"code"						: "Javascript代码",
 			"code_help"					: "通过这个javascript片段，你可以在你的网络应用中触发你的自定义事件."
 		},
 
@@ -1383,8 +1383,8 @@
 	},
 
 	"heatmap_create_modal": {
-		"header"							: "Create a new heatmap",
-		"subheader"							: "Track the flow of multiple people on the same page.",
+		"header"							: "创建新的热力图",
+		"subheader"							: "追踪同一页面的多人流量.",
 
 		"input": {
 			"name"							: "Name",
@@ -1430,14 +1430,14 @@
 	},
 
 	"replays": {
-		"title"							: "Replays",
-		"menu"							: "Replays",
-		"delete"						: "Delete replays",
-		"header"						: "Replays of %s",
+		"title"							: "回放",
+		"menu"							: "回放",
+		"delete"						: "删除回放",
+		"header"						: "%s的回放",
 		"breadcrumb"					: "Replays",
 
 		"basic": {
-			"no_data"					: "No data available..",
+			"no_data"					: "无可用数据..",
 			"no_data_help"				: ""
 		},
 
@@ -1531,8 +1531,8 @@
 	},
 
 	"website_create_modal": {
-		"header"							: "Add New Website",
-		"subheader"							: "Easily add a new website that you want to track.",
+		"header"							: "添加新网站",
+		"subheader"							: "简单的添加你想追踪的网站.",
 
 		"input": {
 			"name"							: "Name",
@@ -1727,10 +1727,10 @@
 		"title"							: "用户会话分析",
 		"meta_description"				: "",
 		"meta_keywords"					: "",
-		"header"						: "All-in-one web analytics.",
-		"subheader"						: "Easy and friendly analytics. Track your users journey, replay sessions, collect heatmaps & more.",
-		"sign_up"						: "Get started",
-		"breadcrumb"					: "Home",
+		"header"						: "一站式网络分析.",
+		"subheader"						: "简单友好的分析.跟踪您的用户,重放会话,收集热力图等.",
+		"sign_up"						: "开始!",
+		"breadcrumb"					: "主页",
 
 		"analytics": {
 			"name"						: "分析",
